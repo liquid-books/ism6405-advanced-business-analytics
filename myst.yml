@@ -22,6 +22,8 @@ project:
   toc:
     - file: index.md
     - file: chapters/ch01-what-is-business-analytics.md
+    - file: chapters/ch02-data-mining.md
+      title: "Chapter 2: Data Mining"
       title: "Chapter 1: What is Business Analytics and Data Science"
 
 site:
