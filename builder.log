@@ -175,3 +175,44 @@ Parsing images...
 Updating myst.yml TOC...
 Updating index.md...
 Committing and pushing...
+{
+  "success": true,
+  "pushed": true,
+  "committed": false,
+  "repo": "liquid-books/ism6405-advanced-business-analytics",
+  "message": "Pushed existing commits (no new changes staged)",
+  "commit": "0877638260b121e4f42b7e5a9ab97c5258700785",
+  "pages_url": "https://liquid-books.github.io/ism6405-advanced-business-analytics"
+}
+
+
+--- Building Chapter 3: Text and Web Mining ---
+Skipping Chapter 3: Text and Web Mining, already exists.
+
+
+--- Building Chapter 4: Data Visualization ---
+Skipping Chapter 4: Data Visualization, already exists.
+
+
+--- Building Chapter 5: The Impact of AI on Business Analytics ---
+Skipping Chapter 5: The Impact of AI on Business Analytics, already exists.
+
+
+--- Building Chapter 6: Agentic AI and the Impact on Business Analytics ---
+Generating text...
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch05-fig2.png","size":1514920,"sizeKB":"1479.4","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch05-fig3.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch05-fig3.png","size":1261032,"sizeKB":"1231.5","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch05-fig4.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch05-fig4.png","size":1447140,"sizeKB":"1413.2","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch05-fig5.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch05-fig5.png","size":1789463,"sizeKB":"1747.5","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch05-fig6.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch05-fig6.png","size":1553682,"sizeKB":"1517.3","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch05-fig7.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch05-fig7.png","size":1636984,"sizeKB":"1598.6","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch05-fig8.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch05-fig8.png","size":1590954,"sizeKB":"1553.7","model":"gemini-3.1-flash-image-preview"}
+Updating myst.yml TOC...
+Updating index.md...
+Committing and pushing...

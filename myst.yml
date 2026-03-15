@@ -25,6 +25,8 @@ project:
     - file: chapters/ch01-what-is-business-analytics.md
     - file: chapters/ch04-data-visualization.md
     - file: chapters/ch02-data-mining.md
+    - file: chapters/ch05-impact-of-ai.md
+      title: "Chapter 5: The Impact of AI on Business Analytics"
       title: "Chapter 2: Data Mining"
       title: "Chapter 4: Data Visualization"
       title: "Chapter 1: What is Business Analytics and Data Science"
