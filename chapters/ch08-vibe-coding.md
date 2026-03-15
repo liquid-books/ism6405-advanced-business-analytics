@@ -53,7 +53,7 @@ It is important to understand that vibe coding is not a single tool or platform.
 :::{prf:definition} Large Language Model (LLM)
 :label: def-llm
 
-A **Large Language Model (LLM)** is a deep learning system trained on massive corpora of text data — including source code, documentation, books, and internet text — that can generate coherent, contextually appropriate text (including code) in response to natural language prompts. Examples include GPT-4o (OpenAI), Claude 3.5 Sonnet (Anthropic), Gemini 1.5 Pro (Google), and Llama 3 (Meta).
+- **A ** **Large Language Model (LLM)** is a deep learning system trained on massive corpora of text data — including source code, documentation, books, and internet text — that can generate coherent, contextually appropriate text (including code) in response to natural language prompts. Examples include GPT-4o (OpenAI), Claude 3.5 Sonnet (Anthropic), Gemini 1.5 Pro (Google), and Llama 3 (Meta).
 :::
 
 The distinction between vibe coding and traditional programming is not merely one of convenience — it reflects a fundamentally different division of cognitive labor. In traditional programming, the human carries full responsibility for syntax, logic, data structures, error handling, and optimization. In vibe coding, that burden is substantially shifted to the AI, freeing the human to focus on **problem formulation**, **result interpretation**, and **business judgment**.

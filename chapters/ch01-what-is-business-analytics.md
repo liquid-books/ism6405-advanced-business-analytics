@@ -302,7 +302,7 @@ For business analysts and data scientists, these tools serve as powerful *force 
 :::{note}
 **AI as Analyst's Assistant**
 
-A common anxiety among students in analytics programs is that AI will replace their jobs. The evidence, at this point, suggests a more nuanced picture: AI is rapidly automating *tasks* — writing boilerplate code, generating first-draft reports, cleaning data — while amplifying the value of skills that remain distinctly human: defining the right problems, exercising business judgment, communicating persuasively, and making ethical decisions about how data is used. The analyst who knows how to effectively collaborate with AI tools will be far more productive — and valuable — than one who does not.
+- **A ** common anxiety among students in analytics programs is that AI will replace their jobs. The evidence, at this point, suggests a more nuanced picture: AI is rapidly automating *tasks* — writing boilerplate code, generating first-draft reports, cleaning data — while amplifying the value of skills that remain distinctly human: defining the right problems, exercising business judgment, communicating persuasively, and making ethical decisions about how data is used. The analyst who knows how to effectively collaborate with AI tools will be far more productive — and valuable — than one who does not.
 :::
 
 ---
@@ -447,100 +447,100 @@ Consider both sides of this debate carefully. Drawing on the concepts introduced
 **Question 1**
 Which level of business analytics is primarily concerned with understanding *why* a particular business outcome occurred, using techniques such as drill-down analysis, correlation studies, and root cause investigation?
 
-A) Descriptive Analytics
-B) Diagnostic Analytics
-C) Predictive Analytics
-D) Prescriptive Analytics
+- **A)** Descriptive Analytics
+- **B)** Diagnostic Analytics
+- **C)** Predictive Analytics
+- **D)** Prescriptive Analytics
 
 ---
 
 **Question 2**
 Drew Conway's Data Science Venn Diagram identifies three core competency areas that define data science. Which of the following correctly names all three?
 
-A) Programming Skills, Business Acumen, and Database Management
-B) Hacking Skills, Math and Statistics, and Substantive Expertise
-C) Machine Learning, Data Engineering, and Visualization
-D) Python Proficiency, SQL Knowledge, and Communication Skills
+- **A)** Programming Skills, Business Acumen, and Database Management
+- **B)** Hacking Skills, Math and Statistics, and Substantive Expertise
+- **C)** Machine Learning, Data Engineering, and Visualization
+- **D)** Python Proficiency, SQL Knowledge, and Communication Skills
 
 ---
 
 **Question 3**
 The CRISP-DM framework is a standard process model for data science projects. Which of the following correctly describes the *third* phase of CRISP-DM?
 
-A) Modeling — selecting and applying machine learning algorithms to the prepared dataset
-B) Business Understanding — defining project objectives from a business perspective
-C) Data Preparation — cleaning, transforming, and engineering features from raw data
-D) Evaluation — assessing model performance against the original business objectives
+- **A)** Modeling — selecting and applying machine learning algorithms to the prepared dataset
+- **B)** Business Understanding — defining project objectives from a business perspective
+- **C)** Data Preparation — cleaning, transforming, and engineering features from raw data
+- **D)** Evaluation — assessing model performance against the original business objectives
 
 ---
 
 **Question 4**
 An airline uses a system that continuously adjusts ticket prices across thousands of fare classes in real time, accounting for demand forecasts, competitor pricing, and remaining seat inventory, with the goal of maximizing total revenue per flight. Which level of analytics best describes this system?
 
-A) Descriptive Analytics
-B) Diagnostic Analytics
-C) Predictive Analytics
-D) Prescriptive Analytics
+- **A)** Descriptive Analytics
+- **B)** Diagnostic Analytics
+- **C)** Predictive Analytics
+- **D)** Prescriptive Analytics
 
 ---
 
 **Question 5**
 According to the McKinsey Global Institute research referenced in this chapter, which of the following most accurately describes a data-driven organization's comparative advantage?
 
-A) Data-driven organizations spend 40% less on IT infrastructure than their competitors.
-B) Data-driven organizations are 23 times more likely to acquire customers and 19 times more likely to be profitable.
-C) Data-driven organizations have 50% lower employee turnover than organizations that rely on intuition.
-D) Data-driven organizations complete projects 30% faster due to automated reporting systems.
+- **A)** Data-driven organizations spend 40% less on IT infrastructure than their competitors.
+- **B)** Data-driven organizations are 23 times more likely to acquire customers and 19 times more likely to be profitable.
+- **C)** Data-driven organizations have 50% lower employee turnover than organizations that rely on intuition.
+- **D)** Data-driven organizations complete projects 30% faster due to automated reporting systems.
 
 ---
 
 **Question 6**
-A company builds a machine learning model to predict employee attrition. After deployment, they discover that the model consistently assigns lower retention probability scores to employees from a specific demographic group, even when controlling for performance metrics. This is an example of which challenge in responsible analytics?
+- **A ** company builds a machine learning model to predict employee attrition. After deployment, they discover that the model consistently assigns lower retention probability scores to employees from a specific demographic group, even when controlling for performance metrics. This is an example of which challenge in responsible analytics?
 
-A) Model Overfitting
-B) Data Pipeline Failure
-C) Algorithmic Bias
-D) Feature Engineering Error
+- **A)** Model Overfitting
+- **B)** Data Pipeline Failure
+- **C)** Algorithmic Bias
+- **D)** Feature Engineering Error
 
 ---
 
 **Question 7**
 Which of the following best describes the role of an *Analytics Translator* in a modern data organization?
 
-A) A software engineer who converts Python models into production-ready APIs
-B) A professional who works at the interface between technical teams and business stakeholders, ensuring analytical work is correctly scoped and acted upon
-C) A data engineer who transforms raw data from source systems into analytics-ready formats
-D) A visualization specialist who converts statistical outputs into executive presentations
+- **A)** A software engineer who converts Python models into production-ready APIs
+- **B)** A professional who works at the interface between technical teams and business stakeholders, ensuring analytical work is correctly scoped and acted upon
+- **C)** A data engineer who transforms raw data from source systems into analytics-ready formats
+- **D)** A visualization specialist who converts statistical outputs into executive presentations
 
 ---
 
 **Question 8**
 The "Four V's of Big Data" describe the core characteristics that make managing modern data challenging. Which of the following is NOT traditionally listed among the original Four V's?
 
-A) Volume
-B) Velocity
-C) Variety
-D) Visibility
+- **A)** Volume
+- **B)** Velocity
+- **C)** Variety
+- **D)** Visibility
 
 ---
 
 **Question 9**
 In the context of the AI-era analyst described in Section 1.9, which of the following represents the most significant *shift* in the analyst's role brought about by generative AI tools like Gemini?
 
-A) Analysts no longer need to understand statistics because AI generates all models automatically.
-B) The analyst's role shifts from manually executing every step of the analytical workflow toward directing, evaluating, and contextualizing AI-generated outputs.
-C) Generative AI has made SQL and Python skills obsolete for business analysts.
-D) Analysts now primarily focus on data storage architecture rather than insight generation.
+- **A)** Analysts no longer need to understand statistics because AI generates all models automatically.
+- **B)** The analyst's role shifts from manually executing every step of the analytical workflow toward directing, evaluating, and contextualizing AI-generated outputs.
+- **C)** Generative AI has made SQL and Python skills obsolete for business analysts.
+- **D)** Analysts now primarily focus on data storage architecture rather than insight generation.
 
 ---
 
 **Question 10**
 Netflix's decision to commission "House of Cards" in 2013 is described as a data-driven decision. Which combination of data patterns most directly informed this decision, according to the case study presented in this chapter?
 
-A) High engagement with romantic comedies, strong mobile streaming usage, and positive social media sentiment
-B) Overlap in the subscriber segment that loved the original British "House of Cards," films directed by David Fincher, and films starring Kevin Spacey
-C) A/B testing results showing that political drama thumbnails generated the highest click-through rates
-D) Subscription churn analysis indicating that subscribers without access to original content canceled at higher rates
+- **A)** High engagement with romantic comedies, strong mobile streaming usage, and positive social media sentiment
+- **B)** Overlap in the subscriber segment that loved the original British "House of Cards," films directed by David Fincher, and films starring Kevin Spacey
+- **C)** A/B testing results showing that political drama thumbnails generated the highest click-through rates
+- **D)** Subscription churn analysis indicating that subscribers without access to original content canceled at higher rates
 
 ---
 
@@ -1008,7 +1008,7 @@ The final part of this activity brings you back from the code to the concepts �
 # ============================================================
 
 reflection_prompt = f"""
-A graduate student in ISM 6405 Advanced Business Analytics at Florida 
+- **A ** graduate student in ISM 6405 Advanced Business Analytics at Florida 
 Atlantic University has just completed their first hands-on analytics 
 activity. They analyzed an online retail dataset and used AI assistance 
 to interpret descriptive and diagnostic analytics results.

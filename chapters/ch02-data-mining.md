@@ -176,7 +176,7 @@ The chief **weakness** of decision trees is their instability: a small change in
 
 ### 2.3.2 Random Forests: The Power of Collective Intelligence
 
-A **random forest** is an ensemble of many decision trees, each trained on a random bootstrap sample of the training data and using a random subset of features at each split. The final prediction is determined by majority vote (for classification) or averaging (for regression) across all trees. This elegant approach leverages two statistical principles: **bagging** (bootstrap aggregating) reduces variance by averaging across diverse models, and **feature randomization** further decorrelates the individual trees, making the ensemble more robust.
+- **A ** **random forest** is an ensemble of many decision trees, each trained on a random bootstrap sample of the training data and using a random subset of features at each split. The final prediction is determined by majority vote (for classification) or averaging (for regression) across all trees. This elegant approach leverages two statistical principles: **bagging** (bootstrap aggregating) reduces variance by averaging across diverse models, and **feature randomization** further decorrelates the individual trees, making the ensemble more robust.
 
 Random forests consistently deliver exceptional performance across a wide range of business problems. They are highly resistant to overfitting, handle missing data well, are relatively immune to outliers, and require minimal data preprocessing (no need to scale features, for instance). Their primary limitation is interpretability: while you can extract feature importance rankings from a random forest, explaining *why* a specific prediction was made is far more difficult than with a single decision tree. This creates tension in contexts where explainability is a regulatory requirement — for example, under the Equal Credit Opportunity Act, lenders must be able to explain adverse actions taken against credit applicants.
 
@@ -563,50 +563,50 @@ The following ten questions assess your comprehension of the concepts covered in
 **Question 1** *(Multiple Choice)*
 Which of the following BEST describes the difference between supervised and unsupervised learning in data mining?
 
-A) Supervised learning requires more data than unsupervised learning.
-B) Supervised learning uses labeled training data with known outcomes, while unsupervised learning discovers patterns in unlabeled data without predefined target variables.
-C) Unsupervised learning is always more accurate than supervised learning because it is not constrained by labels.
-D) Supervised learning is used only for classification, while unsupervised learning is used only for regression.
+- **A)** Supervised learning requires more data than unsupervised learning.
+- **B)** Supervised learning uses labeled training data with known outcomes, while unsupervised learning discovers patterns in unlabeled data without predefined target variables.
+- **C)** Unsupervised learning is always more accurate than supervised learning because it is not constrained by labels.
+- **D)** Supervised learning is used only for classification, while unsupervised learning is used only for regression.
 
 ---
 
 **Question 2** *(Multiple Choice)*
-A telecommunications company builds a churn prediction model. On the test set, the model achieves 94% accuracy. However, only 6% of customers in the dataset actually churned. What is the most likely explanation for this result, and what is the appropriate analytical response?
+- **A ** telecommunications company builds a churn prediction model. On the test set, the model achieves 94% accuracy. However, only 6% of customers in the dataset actually churned. What is the most likely explanation for this result, and what is the appropriate analytical response?
 
-A) 94% accuracy is excellent; the model should be deployed immediately.
-B) The model is suffering from overfitting due to insufficient training data; collect more data.
-C) The model may be achieving high accuracy by predicting "no churn" for almost every case, exploiting class imbalance; evaluate using Precision, Recall, F1-Score, and AUC instead.
-D) The model is underfitting; increase model complexity by adding more features.
+- **A)** 94% accuracy is excellent; the model should be deployed immediately.
+- **B)** The model is suffering from overfitting due to insufficient training data; collect more data.
+- **C)** The model may be achieving high accuracy by predicting "no churn" for almost every case, exploiting class imbalance; evaluate using Precision, Recall, F1-Score, and AUC instead.
+- **D)** The model is underfitting; increase model complexity by adding more features.
 
 ---
 
 **Question 3** *(Multiple Choice)*
 In the context of k-means clustering, what does the "elbow method" help an analyst determine?
 
-A) The optimal distance metric to use for cluster assignment
-B) The appropriate number of clusters (k) by identifying where additional clusters yield diminishing reductions in within-cluster variance
-C) Whether the clustering solution is statistically significant
-D) The minimum number of observations required in each cluster
+- **A)** The optimal distance metric to use for cluster assignment
+- **B)** The appropriate number of clusters (k) by identifying where additional clusters yield diminishing reductions in within-cluster variance
+- **C)** Whether the clustering solution is statistically significant
+- **D)** The minimum number of observations required in each cluster
 
 ---
 
 **Question 4** *(Multiple Choice)*
 Which of the following statements about Random Forests is CORRECT?
 
-A) Random Forests train a single, very deep decision tree on the full dataset.
-B) Random Forests are highly interpretable because each individual tree's rules can be easily explained to stakeholders.
-C) Random Forests aggregate predictions from multiple decision trees trained on bootstrap samples with random feature subsets, reducing variance and improving generalization.
-D) Random Forests require features to be standardized (mean=0, variance=1) before training.
+- **A)** Random Forests train a single, very deep decision tree on the full dataset.
+- **B)** Random Forests are highly interpretable because each individual tree's rules can be easily explained to stakeholders.
+- **C)** Random Forests aggregate predictions from multiple decision trees trained on bootstrap samples with random feature subsets, reducing variance and improving generalization.
+- **D)** Random Forests require features to be standardized (mean=0, variance=1) before training.
 
 ---
 
 **Question 5** *(Multiple Choice)*
-A hospital uses a data mining model to predict which patients are at high risk of hospital readmission within 30 days. The consequences of a false negative (predicting low risk when the patient actually readmits) are significantly more severe than a false positive (predicting high risk when the patient does not readmit). Which evaluation metric should the hospital prioritize when selecting and tuning this model?
+- **A ** hospital uses a data mining model to predict which patients are at high risk of hospital readmission within 30 days. The consequences of a false negative (predicting low risk when the patient actually readmits) are significantly more severe than a false positive (predicting high risk when the patient does not readmit). Which evaluation metric should the hospital prioritize when selecting and tuning this model?
 
-A) Accuracy
-B) Precision
-C) Recall (Sensitivity)
-D) Specificity
+- **A)** Accuracy
+- **B)** Precision
+- **C)** Recall (Sensitivity)
+- **D)** Specificity
 
 ---
 
@@ -618,35 +618,35 @@ Explain the concept of model overfitting in your own words. Describe two techniq
 **Question 7** *(Multiple Choice)*
 Which phase of the CRISP-DM process model is most concerned with ensuring that a technically successful model actually addresses the original business problem before the model is deployed?
 
-A) Data Preparation
-B) Modeling
-C) Evaluation
-D) Deployment
+- **A)** Data Preparation
+- **B)** Modeling
+- **C)** Evaluation
+- **D)** Deployment
 
 ---
 
 **Question 8** *(Multiple Choice)*
 Association rule mining produces rules evaluated by Support, Confidence, and Lift. A rule has Support = 0.02, Confidence = 0.85, and Lift = 4.2. Which of the following is the BEST interpretation of these metrics?
 
-A) The rule is unreliable because Support is very low; it should be discarded.
-B) The rule describes a pattern occurring in 2% of transactions, where 85% of the time the antecedent leads to the consequent, and this co-occurrence is 4.2 times more likely than chance — suggesting a strong, potentially actionable relationship even with low support.
-C) Lift below 5.0 means the rule is not statistically significant and should be ignored.
-D) High Confidence automatically means the rule is valuable regardless of Lift.
+- **A)** The rule is unreliable because Support is very low; it should be discarded.
+- **B)** The rule describes a pattern occurring in 2% of transactions, where 85% of the time the antecedent leads to the consequent, and this co-occurrence is 4.2 times more likely than chance — suggesting a strong, potentially actionable relationship even with low support.
+- **C)** Lift below 5.0 means the rule is not statistically significant and should be ignored.
+- **D)** High Confidence automatically means the rule is valuable regardless of Lift.
 
 ---
 
 **Question 9** *(Short Answer)*
-A retail company has conducted k-means clustering on its customer base and identified five segments. Describe the steps an analytics team should take to move from a clustering result to a concrete, actionable business strategy. What additional analyses might be needed beyond the initial clustering output?
+- **A ** retail company has conducted k-means clustering on its customer base and identified five segments. Describe the steps an analytics team should take to move from a clustering result to a concrete, actionable business strategy. What additional analyses might be needed beyond the initial clustering output?
 
 ---
 
 **Question 10** *(Multiple Choice)*
 Which of the following BEST characterizes the primary advantage of DBSCAN over k-means clustering for certain business applications?
 
-A) DBSCAN is always faster than k-means and should therefore always be preferred for large datasets.
-B) DBSCAN requires the analyst to specify the number of clusters in advance, making it more controlled.
-C) DBSCAN can discover clusters of arbitrary shape and explicitly identifies noise points (outliers), making it suitable for applications like geographic clustering and anomaly detection where clusters are not spherical.
-D) DBSCAN produces a dendrogram that allows analysts to explore multiple cluster solutions simultaneously.
+- **A)** DBSCAN is always faster than k-means and should therefore always be preferred for large datasets.
+- **B)** DBSCAN requires the analyst to specify the number of clusters in advance, making it more controlled.
+- **C)** DBSCAN can discover clusters of arbitrary shape and explicitly identifies noise points (outliers), making it suitable for applications like geographic clustering and anomaly detection where clusters are not spherical.
+- **D)** DBSCAN produces a dendrogram that allows analysts to explore multiple cluster solutions simultaneously.
 
 ---
 
@@ -842,11 +842,11 @@ The chapters that follow will build on these foundations, introducing more advan
 ## Key Terms
 
 :::{dropdown} **Association Rule Mining**
-A data mining technique that identifies interesting co-occurrence relationships among variables in large transaction databases, commonly used in market basket analysis. Rules are evaluated by Support, Confidence, and Lift.
+- **A ** data mining technique that identifies interesting co-occurrence relationships among variables in large transaction databases, commonly used in market basket analysis. Rules are evaluated by Support, Confidence, and Lift.
 :::
 
 :::{dropdown} **Classification**
-A supervised learning task in which an algorithm learns to assign observations to predefined discrete categories based on labeled training data. Common techniques include decision trees, logistic regression, and random forests.
+- **A ** supervised learning task in which an algorithm learns to assign observations to predefined discrete categories based on labeled training data. Common techniques include decision trees, logistic regression, and random forests.
 :::
 
 :::{dropdown} **Clustering**
@@ -858,7 +858,7 @@ Cross-Industry Standard Process for Data Mining. A six-phase iterative methodolo
 :::
 
 :::{dropdown} **Cross-Validation**
-A resampling technique for estimating model generalization performance by partitioning data into k folds, training on k-1 folds and testing on the remaining fold, rotating through all combinations and averaging results.
+- **A ** resampling technique for estimating model generalization performance by partitioning data into k folds, training on k-1 folds and testing on the remaining fold, rotating through all combinations and averaging results.
 :::
 
 :::{dropdown} **Data Mining**
@@ -878,7 +878,7 @@ The harmonic mean of Precision and Recall, providing a single balanced metric fo
 :::
 
 :::{dropdown} **Feature Importance**
-A measure of how much each predictor variable contributes to a model's predictions. In random forests, feature importance is calculated as the average reduction in impurity attributable to each feature across all trees.
+- **A ** measure of how much each predictor variable contributes to a model's predictions. In random forests, feature importance is calculated as the average reduction in impurity attributable to each feature across all trees.
 :::
 
 :::{dropdown} **Generalization**
@@ -898,7 +898,7 @@ In association rule mining, the ratio of a rule's observed confidence to the exp
 :::
 
 :::{dropdown} **Logistic Regression**
-A supervised learning algorithm that models the probability of a binary outcome as a function of predictor variables using the logistic (sigmoid) function. Coefficients can be exponentiated to yield interpretable odds ratios.
+- **A ** supervised learning algorithm that models the probability of a binary outcome as a function of predictor variables using the logistic (sigmoid) function. Coefficients can be exponentiated to yield interpretable odds ratios.
 :::
 
 :::{dropdown} **Model Governance**
@@ -906,7 +906,7 @@ The organizational policies, processes, roles, and oversight mechanisms that ens
 :::
 
 :::{dropdown} **Overfitting**
-A modeling problem in which an algorithm learns the noise and idiosyncratic patterns of the training data so precisely that it fails to generalize to new data, resulting in high training accuracy but poor real-world performance.
+- **A ** modeling problem in which an algorithm learns the noise and idiosyncratic patterns of the training data so precisely that it fails to generalize to new data, resulting in high training accuracy but poor real-world performance.
 :::
 
 :::{dropdown} **Predictive Modeling**
@@ -922,11 +922,11 @@ Receiver Operating Characteristic — Area Under the Curve. A model evaluation m
 :::
 
 :::{dropdown} **Supervised Learning**
-A machine learning paradigm in which algorithms are trained on labeled data — observations with known input features and corresponding output values — and learn to predict outputs for new, unlabeled observations.
+- **A ** machine learning paradigm in which algorithms are trained on labeled data — observations with known input features and corresponding output values — and learn to predict outputs for new, unlabeled observations.
 :::
 
 :::{dropdown} **Unsupervised Learning**
-A machine learning paradigm in which algorithms discover patterns, structures, or groupings in data without predefined labels or target variables. Clustering and association rule mining are primary unsupervised learning techniques.
+- **A ** machine learning paradigm in which algorithms discover patterns, structures, or groupings in data without predefined labels or target variables. Clustering and association rule mining are primary unsupervised learning techniques.
 :::
 
 ---

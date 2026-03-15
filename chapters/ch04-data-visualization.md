@@ -115,7 +115,7 @@ Determine whether your variables are categorical (nominal or ordinal) or quantit
 :::
 
 :::{tab-item} Step 3: Consider the Audience
-A financial analyst can read a scatter plot with regression lines. A store manager may need a simple bar chart with a single highlighted bar. A C-suite executive needs a single number with a trend arrow. Know your audience before you finalize your design.
+- **A ** financial analyst can read a scatter plot with regression lines. A store manager may need a simple bar chart with a single highlighted bar. A C-suite executive needs a single number with a trend arrow. Know your audience before you finalize your design.
 :::
 
 :::{tab-item} Step 4: Prototype and Test
@@ -127,7 +127,7 @@ Build a draft of your visualization and show it to one or two people who represe
 
 ## 4.3 Dashboard Design: Building the Nerve Center of the Business
 
-A dashboard is a visual display of the most important information needed to achieve one or more objectives, consolidated and arranged on a single screen so the information can be monitored at a glance. This definition, from Stephen Few's foundational work *Information Dashboard Design* (2006), contains a crucial constraint often ignored by dashboard builders: **a single screen**.
+- **A ** dashboard is a visual display of the most important information needed to achieve one or more objectives, consolidated and arranged on a single screen so the information can be monitored at a glance. This definition, from Stephen Few's foundational work *Information Dashboard Design* (2006), contains a crucial constraint often ignored by dashboard builders: **a single screen**.
 
 The most common dashboard design failure is scope creep — the tendency to add more and more metrics until the dashboard becomes a scrolling report rather than a monitoring tool. A true dashboard should be readable in under five seconds. It is the organizational equivalent of a cockpit: the pilot does not need to know everything about the plane at every moment, only the critical indicators that signal whether the flight is on course.
 
@@ -154,7 +154,7 @@ The Three Types of Business Dashboards: Strategic, Operational, and Analytical �
 
 Effective dashboard design follows a hierarchy of layout and visual weight. The most important metrics should occupy the top-left of the screen (where Western readers' eyes naturally land first) and should be displayed in the largest, most prominent visual elements. Supporting context and detail should follow in a logical reading order.
 
-A well-designed dashboard typically includes the following elements:
+- **A ** well-designed dashboard typically includes the following elements:
 
 **KPI tiles or scorecards** display a single metric with its current value, comparison period value, and a directional indicator (up/down arrow or color code). These are the fastest-reading elements on the dashboard and should occupy the most prominent position.
 
@@ -166,7 +166,7 @@ A well-designed dashboard typically includes the following elements:
 
 :::{prf:definition} Key Performance Indicator (KPI)
 :label: def-kpi
-A **Key Performance Indicator (KPI)** is a quantifiable measure used to evaluate the success of an organization, employee, or process in achieving objectives. Effective KPIs are Specific, Measurable, Achievable, Relevant, and Time-bound (SMART). In dashboard design, KPIs should be limited to the vital few metrics that are genuinely linked to strategic outcomes, rather than the many metrics that are merely available.
+- **A ** **Key Performance Indicator (KPI)** is a quantifiable measure used to evaluate the success of an organization, employee, or process in achieving objectives. Effective KPIs are Specific, Measurable, Achievable, Relevant, and Time-bound (SMART). In dashboard design, KPIs should be limited to the vital few metrics that are genuinely linked to strategic outcomes, rather than the many metrics that are merely available.
 :::
 
 ### 4.3.3 Color in Dashboards
@@ -325,7 +325,7 @@ Operations and supply chain visualization prioritizes process monitoring and exc
 
 For graduate business students, a visualization portfolio is a tangible, differentiated asset in your job search. Hiring managers in analytics, consulting, strategy, and operations roles increasingly expect candidates to demonstrate not just knowledge of visualization principles, but evidence of having applied them to real problems.
 
-A strong visualization portfolio should include examples across multiple chart types, at least one interactive dashboard (built in Tableau Public, Power BI, or a similar platform), and at least one data story that presents a complete analytical narrative from question to recommendation. The analyses you complete in this course — particularly the Manus hands-on activity and the Midterm Activity — are ideal starting points for your portfolio.
+- **A ** strong visualization portfolio should include examples across multiple chart types, at least one interactive dashboard (built in Tableau Public, Power BI, or a similar platform), and at least one data story that presents a complete analytical narrative from question to recommendation. The analyses you complete in this course — particularly the Manus hands-on activity and the Midterm Activity — are ideal starting points for your portfolio.
 
 :::{figure} ../images/ch04-fig8.png
 :label: fig-ch04-fig8

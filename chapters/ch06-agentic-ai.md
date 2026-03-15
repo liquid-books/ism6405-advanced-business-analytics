@@ -131,7 +131,7 @@ While a single autonomous agent can accomplish remarkable analytical tasks, the 
 :::{prf:definition} Multi-Agent System
 :label: def-mas
 
-A **Multi-Agent System (MAS)** is a computational architecture comprising two or more autonomous AI agents that interact with each other and with a shared environment to achieve individual or collective goals. In business analytics contexts, MAS architectures enable the decomposition of complex analytical workflows across specialized agents, parallel execution of analytical tasks, and emergent problem-solving capabilities that exceed what any single agent could produce alone.
+- **A ** **Multi-Agent System (MAS)** is a computational architecture comprising two or more autonomous AI agents that interact with each other and with a shared environment to achieve individual or collective goals. In business analytics contexts, MAS architectures enable the decomposition of complex analytical workflows across specialized agents, parallel execution of analytical tasks, and emergent problem-solving capabilities that exceed what any single agent could produce alone.
 :::
 
 ### 6.3.1 Patterns of Multi-Agent Coordination
@@ -244,10 +244,10 @@ The evolving role of business analytics professionals from manual data processor
 To understand concretely how agentic AI transforms analytics workflows, consider a comparative analysis of a common business analytics task — competitive intelligence reporting — before and after agentic AI deployment.
 
 **Traditional Workflow (Pre-Agentic)**:
-A team of two analysts spends three days each week gathering competitor pricing data from websites, financial disclosures from SEC databases, social media sentiment from manual review, customer review data from ratings platforms, and news mentions from Google Alerts. They compile this data into a spreadsheet, manually compute comparative metrics, and draft a narrative summary. The process takes roughly 48 person-hours per cycle and produces a report approximately 72 hours after the observation period.
+- **A ** team of two analysts spends three days each week gathering competitor pricing data from websites, financial disclosures from SEC databases, social media sentiment from manual review, customer review data from ratings platforms, and news mentions from Google Alerts. They compile this data into a spreadsheet, manually compute comparative metrics, and draft a narrative summary. The process takes roughly 48 person-hours per cycle and produces a report approximately 72 hours after the observation period.
 
 **Agentic Workflow (Post-Deployment)**:
-A multi-agent competitive intelligence system runs continuously. A web monitoring agent tracks competitor websites for pricing and product changes in real time. A financial data agent queries SEC EDGAR and financial data APIs on a scheduled basis. A social listening agent processes sentiment signals from multiple platforms through API integrations. A synthesis agent aggregates structured outputs from all monitoring agents, computes trend metrics, identifies significant changes, and drafts narrative sections. An orchestrator agent compiles the final report, flags items requiring human review, and distributes it to stakeholders. The process runs 24/7, produces daily updates rather than weekly reports, and requires approximately 2 person-hours per week for human oversight and quality review.
+- **A ** multi-agent competitive intelligence system runs continuously. A web monitoring agent tracks competitor websites for pricing and product changes in real time. A financial data agent queries SEC EDGAR and financial data APIs on a scheduled basis. A social listening agent processes sentiment signals from multiple platforms through API integrations. A synthesis agent aggregates structured outputs from all monitoring agents, computes trend metrics, identifies significant changes, and drafts narrative sections. An orchestrator agent compiles the final report, flags items requiring human review, and distributes it to stakeholders. The process runs 24/7, produces daily updates rather than weekly reports, and requires approximately 2 person-hours per week for human oversight and quality review.
 
 The value created is not simply efficiency — it is a qualitative improvement in the analytical product itself: higher frequency, lower latency, broader data coverage, and more consistent quality.
 
@@ -260,7 +260,7 @@ Quantitative metrics typically include: analyst hours saved per analytical cycle
 Qualitative metrics include: stakeholder satisfaction with analytical product quality, analyst job satisfaction and higher-value work ratio, organizational decision velocity (how quickly business units make data-informed decisions), and breadth of analytical coverage across business domains.
 
 :::{note}
-A 2024 study by McKinsey Global Institute estimated that knowledge workers using agentic AI tools completed complex analytical tasks 40-60% faster than those using conventional AI tools, and 70-80% faster than those using no AI assistance at all. Critically, the quality of outputs as rated by independent domain experts was equal to or higher than non-AI-assisted work in the majority of cases, suggesting that speed gains do not come at the cost of analytical rigor.
+- **A ** 2024 study by McKinsey Global Institute estimated that knowledge workers using agentic AI tools completed complex analytical tasks 40-60% faster than those using conventional AI tools, and 70-80% faster than those using no AI assistance at all. Critically, the quality of outputs as rated by independent domain experts was equal to or higher than non-AI-assisted work in the majority of cases, suggesting that speed gains do not come at the cost of analytical rigor.
 :::
 
 ---
@@ -293,7 +293,7 @@ When human analysts produce biased analyses, the scope of impact is limited by h
 :width: 70%
 :align: center
 
-A layered governance framework for responsible deployment of agentic AI in business analytics environments.
+- **A ** layered governance framework for responsible deployment of agentic AI in business analytics environments.
 :::
 
 ### 6.6.4 The Explainability Imperative
@@ -322,7 +322,7 @@ For business analytics, continuously learning agents promise systems that become
 
 ### 6.7.3 Agent-to-Agent Economies
 
-A more speculative but intellectually fascinating development is the emergence of *agent-to-agent economies* — environments in which AI agents transact with each other directly, exchanging analytical services, data, and computational resources in automated markets. Early examples of this pattern are already visible in programmatic advertising markets, algorithmic trading systems, and automated API marketplaces. As agents become more capable and more numerous, these inter-agent transactions are likely to become a significant feature of the digital business landscape.
+- **A ** more speculative but intellectually fascinating development is the emergence of *agent-to-agent economies* — environments in which AI agents transact with each other directly, exchanging analytical services, data, and computational resources in automated markets. Early examples of this pattern are already visible in programmatic advertising markets, algorithmic trading systems, and automated API marketplaces. As agents become more capable and more numerous, these inter-agent transactions are likely to become a significant feature of the digital business landscape.
 
 :::{figure} ../images/ch06-fig7.png
 :label: fig-ch06-fig7

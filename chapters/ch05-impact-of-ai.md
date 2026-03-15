@@ -228,7 +228,7 @@ The Two-Tier AI Modeling Revolution: AutoML democratizes traditional machine lea
 :::{prf:definition} Foundation Model
 :label: def-foundation-model
 
-A **foundation model** is a large AI model trained on broad, diverse data at scale, designed to be adapted across a wide range of downstream tasks. The term, coined by researchers at Stanford's Center for Research on Foundation Models in 2021, emphasizes the model's role as a foundation upon which many applications can be built. Examples include GPT-4, Claude 3.5, Gemini 1.5, and Llama 3. In business analytics, foundation models enable capabilities including natural language data querying, automated report generation, code generation, and conversational data exploration.
+- **A ** **foundation model** is a large AI model trained on broad, diverse data at scale, designed to be adapted across a wide range of downstream tasks. The term, coined by researchers at Stanford's Center for Research on Foundation Models in 2021, emphasizes the model's role as a foundation upon which many applications can be built. Examples include GPT-4, Claude 3.5, Gemini 1.5, and Llama 3. In business analytics, foundation models enable capabilities including natural language data querying, automated report generation, code generation, and conversational data exploration.
 :::
 
 For business analytics, foundation models enable use cases that were simply not possible with traditional analytics tools:
@@ -270,7 +270,7 @@ Consider a concrete example: retail inventory management. In the traditional mod
 
 ## 5.4 The Human-AI Collaboration Framework: Augmented Intelligence
 
-A critical concept for every analytics professional in the AI era is the distinction between **artificial intelligence that automates** human analytical work and **artificial intelligence that augments** it. This distinction has profound implications for how organizations deploy AI, how analytics professionals position their careers, and how businesses navigate the ethical complexities of AI-driven decisions.
+- **A ** critical concept for every analytics professional in the AI era is the distinction between **artificial intelligence that automates** human analytical work and **artificial intelligence that augments** it. This distinction has profound implications for how organizations deploy AI, how analytics professionals position their careers, and how businesses navigate the ethical complexities of AI-driven decisions.
 
 :::{prf:definition} Augmented Intelligence
 :label: def-augmented-intelligence

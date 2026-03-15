@@ -69,7 +69,7 @@ At the simplest end of the spectrum, we have **Interactive Voice Response (IVR)*
 ```{prf:definition} Voice Agent
 :label: def-voice-agent
 
-A **voice agent** is an AI-powered conversational system that accepts natural language speech as input, processes it through natural language understanding components, executes actions (such as database queries, calculations, or API calls) based on interpreted intent, and returns synthesized speech as output. Unlike simple voice assistants, voice agents maintain conversational context, handle multi-turn dialogues, and can perform complex, multi-step analytical tasks through tool use and reasoning.
+- **A ** **voice agent** is an AI-powered conversational system that accepts natural language speech as input, processes it through natural language understanding components, executes actions (such as database queries, calculations, or API calls) based on interpreted intent, and returns synthesized speech as output. Unlike simple voice assistants, voice agents maintain conversational context, handle multi-turn dialogues, and can perform complex, multi-step analytical tasks through tool use and reasoning.
 ```
 
 ### 7.2.2 Why Voice Interfaces Matter for Business Analytics
@@ -309,7 +309,7 @@ The three major cloud providers — Amazon Web Services, Google Cloud, and Micro
 
 ### 7.6.2 Specialized Analytics Voice Platforms
 
-A growing ecosystem of companies specifically targets voice-enabled analytics. **ThoughtSpot** pioneered natural language querying for business intelligence and has continued evolving its NLP capabilities toward voice interaction. **Tableau Pulse** and similar features in major BI platforms represent incumbents' responses to the conversational analytics trend. Newer entrants like **Speak AI**, **Cognigy**, and various LLM-powered analytics startups are building purpose-built voice analytics solutions.
+- **A ** growing ecosystem of companies specifically targets voice-enabled analytics. **ThoughtSpot** pioneered natural language querying for business intelligence and has continued evolving its NLP capabilities toward voice interaction. **Tableau Pulse** and similar features in major BI platforms represent incumbents' responses to the conversational analytics trend. Newer entrants like **Speak AI**, **Cognigy**, and various LLM-powered analytics startups are building purpose-built voice analytics solutions.
 
 ### 7.6.3 Build-Your-Own with LLM APIs
 

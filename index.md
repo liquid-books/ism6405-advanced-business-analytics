@@ -53,4 +53,12 @@ Natural language programming, code generation via LLMs.
 :link: ./chapters/ch09-future-of-analytics.md
 Future trends + Final Project (presentation pitch).
 :::
+:::{grid-item-card} Quiz Answer Guide
+:link: ./quiz-answers.md
+Answers to all chapter quizzes.
+:::
+:::{grid-item-card} Appendix: Grading
+:link: ./chapters/appendix-grading.md
+Course grading breakdown.
+:::
 :::
