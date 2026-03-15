@@ -6,7 +6,12 @@ description: |
 
 # ISM 6405 Advanced Business Analytics
 
-:::{figure} ./images/cover.png
+:::
+:::{grid-item-card} Chapter 3: Text and Web Mining
+:link: ./chapters/ch03-text-and-web-mining.md
+NLP, scraping, sentiment analysis.
+:::
+{figure} ./images/cover.png
 :width: 300px
 :align: center
 :::

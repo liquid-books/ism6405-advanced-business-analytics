@@ -63,3 +63,37 @@ Generating image: ch02-fig9.png
 Updating myst.yml TOC...
 Updating index.md...
 Committing and pushing...
+{
+  "success": true,
+  "pushed": true,
+  "committed": false,
+  "repo": "liquid-books/ism6405-advanced-business-analytics",
+  "message": "Pushed existing commits (no new changes staged)",
+  "commit": "47f4be0ec28f031a6f149794db27b906a4b31e15",
+  "pages_url": "https://liquid-books.github.io/ism6405-advanced-business-analytics"
+}
+
+
+--- Building Chapter 3: Text and Web Mining ---
+Generating text...
+
+
+--- Building Chapter 1: What is Business Analytics and Data Science ---
+Generating text...
+Parsing images...
+Generating image: ch03-hero.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch03-hero.png","size":1585607,"sizeKB":"1548.4","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch03-fig1.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch03-fig1.png","size":1361387,"sizeKB":"1329.5","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch03-fig2.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch03-fig2.png","size":1360805,"sizeKB":"1328.9","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch03-fig3.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch03-fig3.png","size":1686276,"sizeKB":"1646.8","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch03-fig4.png
+Hit max tokens, continuing...
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch03-fig4.png","size":1450079,"sizeKB":"1416.1","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch03-fig5.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch03-fig5.png","size":1476132,"sizeKB":"1441.5","model":"gemini-3.1-flash-image-preview"}
+Updating myst.yml TOC...
+Updating index.md...
+Committing and pushing...

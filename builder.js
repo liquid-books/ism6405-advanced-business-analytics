@@ -18,22 +18,37 @@ const chapters = [
 ];
 
 async function generateText(prompt) {
-  const res = await fetch("https://api.anthropic.com/v1/messages", {
-    method: "POST",
-    headers: {
-      "x-api-key": ANTHROPIC_KEY,
-      "anthropic-version": "2023-06-01",
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      max_tokens: 8192,
-      messages: [{ role: "user", content: prompt }]
-    })
-  });
-  const data = await res.json();
-  if (!data.content || !data.content[0]) throw new Error("API Failure: " + JSON.stringify(data));
-  return data.content[0].text;
+  let fullText = "";
+  let messages = [{ role: "user", content: prompt }];
+  while (true) {
+    const res = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: {
+        "x-api-key": ANTHROPIC_KEY,
+        "anthropic-version": "2023-06-01",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        model: MODEL,
+        max_tokens: 8192,
+        messages: messages
+      })
+    });
+    const data = await res.json();
+    if (!data.content || !data.content[0]) throw new Error("API Failure: " + JSON.stringify(data));
+    
+    const text = data.content[0].text;
+    fullText += text;
+    
+    if (data.stop_reason === "max_tokens") {
+      console.log("Hit max tokens, continuing...");
+      messages.push({ role: "assistant", content: text });
+      messages.push({ role: "user", content: "Continue exactly from where you left off. Do not repeat anything. Just continue the next word." });
+    } else {
+      break;
+    }
+  }
+  return fullText;
 }
 
 function addChapterToToc(mystYml, chapterFile, chapterTitle) {
@@ -122,11 +137,16 @@ Output pure markdown, no markdown codeblock wrapper around it.`;
     fs.writeFileSync('myst.yml', mystYml);
   }
 
-  console.log("Updating index.md...");
+    console.log("Updating index.md...");
   let indexMd = fs.readFileSync('index.md', 'utf-8');
   if (!indexMd.includes(`ch${chapter.ch}-${chapter.slug}.md`)) {
-    const gridItem = `\n:::{grid-item-card} ${chapter.title}\n:link: ./chapters/ch${chapter.ch}-${chapter.slug}.md\n${chapter.desc}\n:::\n`;
-    indexMd = indexMd.replace(':::', ':::' + gridItem);
+    const gridItem = `
+:::{grid-item-card} ${chapter.title}\n:link: ./chapters/ch${chapter.ch}-${chapter.slug}.md\n${chapter.desc}\n:::\n`;
+    if (!indexMd.includes(":::{grid}")) {
+      indexMd = indexMd + "\n\n## Course Content\n\n:::{grid} 2\n" + gridItem + ":::\n";
+    } else {
+      indexMd = indexMd.replace(":::\n", gridItem + ":::\n");
+    }
     fs.writeFileSync('index.md', indexMd);
   }
 

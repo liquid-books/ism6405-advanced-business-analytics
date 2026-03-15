@@ -21,6 +21,8 @@ project:
   # Table of contents — chapters added here as they are written
   toc:
     - file: index.md
+    - file: chapters/ch03-text-and-web-mining.md
+      title: "Chapter 3: Text and Web Mining"
 
 site:
   title: "ISM 6405 Advanced Business Analytics"
