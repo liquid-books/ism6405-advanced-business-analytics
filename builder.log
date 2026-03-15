@@ -229,3 +229,65 @@ Committing and pushing...
 
 --- Building Chapter 6: Agentic AI and the Impact on Business Analytics ---
 Generating text...
+
+
+--- Building Chapter 1: What is Business Analytics and Data Science ---
+Skipping Chapter 1: What is Business Analytics and Data Science, already exists.
+
+
+--- Building Chapter 2: Data Mining ---
+Skipping Chapter 2: Data Mining, already exists.
+
+
+--- Building Chapter 3: Text and Web Mining ---
+Skipping Chapter 3: Text and Web Mining, already exists.
+
+
+--- Building Chapter 4: Data Visualization ---
+Skipping Chapter 4: Data Visualization, already exists.
+
+
+--- Building Chapter 5: The Impact of AI on Business Analytics ---
+Skipping Chapter 5: The Impact of AI on Business Analytics, already exists.
+
+
+--- Building Chapter 6: Agentic AI and the Impact on Business Analytics ---
+Generating text...
+Hit max tokens, continuing...
+Parsing images...
+Generating image: ch06-hero.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-hero.png","size":1599156,"sizeKB":"1561.7","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig1.png
+Hit max tokens, continuing...
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig1.png","size":1444572,"sizeKB":"1410.7","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig2.png
+Parsing images...
+Generating image: ch06-fig2.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig2.png","size":1345969,"sizeKB":"1314.4","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig3.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig2.png","size":1474068,"sizeKB":"1439.5","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig3.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig3.png","size":1472301,"sizeKB":"1437.8","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig4.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig3.png","size":1412138,"sizeKB":"1379.0","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig4.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig4.png","size":1656159,"sizeKB":"1617.3","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig5.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig4.png","size":1772727,"sizeKB":"1731.2","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig5.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig5.png","size":1346618,"sizeKB":"1315.1","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig6.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig5.png","size":1668900,"sizeKB":"1629.8","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig6.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig6.png","size":1472914,"sizeKB":"1438.4","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig7.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig6.png","size":1613268,"sizeKB":"1575.5","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig7.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig7.png","size":1753622,"sizeKB":"1712.5","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig8.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig7.png","size":1325215,"sizeKB":"1294.2","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch06-fig8.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch06-fig8.png","size":1726513,"sizeKB":"1686.0","model":"gemini-3.1-flash-image-preview"}
+Updating myst.yml TOC...
+Updating index.md...
+Committing and pushing...

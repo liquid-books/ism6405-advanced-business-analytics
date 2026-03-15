@@ -6,7 +6,12 @@ description: |
 
 # ISM 6405 Advanced Business Analytics
 
-:::{figure} ./images/cover.png
+:::
+:::{grid-item-card} Chapter 6: Agentic AI and the Impact on Business Analytics
+:link: ./chapters/ch06-agentic-ai.md
+Autonomous agents, multi-agent systems in business.
+:::
+{figure} ./images/cover.png
 :width: 300px
 :align: center
 :::
