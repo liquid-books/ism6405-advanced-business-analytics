@@ -206,7 +206,7 @@ The transformative leap in voice agent capability that has occurred since approx
 The LLM as Cognitive Core: Orchestrating the Voice Analytics Ecosystem.
 :::
 
-LLMs like GPT-4, Claude, Gemini, and their successors are trained on vast corpora of text and develop extraordinarily broad linguistic and conceptual knowledge. When integrated into voice agents, they provide several capabilities that earlier systems lacked entirely:
+LLMs like GPT-4o/o3 (OpenAI), Claude Sonnet 4.5 (Anthropic), Gemini 2.0 Flash (Google), and their successors are trained on vast corpora of text and develop extraordinarily broad linguistic and conceptual knowledge. When integrated into voice agents, they provide several capabilities that earlier systems lacked entirely:
 
 **Contextual reasoning across long conversations**: LLMs can track complex analytical narratives across dozens of conversational turns, understanding references to earlier queries, remembering user preferences expressed in passing, and building on previous insights.
 
@@ -313,7 +313,7 @@ The three major cloud providers — Amazon Web Services, Google Cloud, and Micro
 
 ### 7.6.3 Build-Your-Own with LLM APIs
 
-For organizations with development resources and custom requirements, building voice agents using foundation model APIs has become increasingly accessible. The combination of OpenAI's Whisper (ASR), GPT-4 or GPT-4o (reasoning and NLU), and TTS APIs, combined with database connectors and orchestration frameworks like LangChain or LlamaIndex, allows sophisticated custom agents to be built in weeks rather than months.
+For organizations with development resources and custom requirements, building voice agents using foundation model APIs has become increasingly accessible. The combination of OpenAI's Whisper (ASR), GPT-4o or o3 (reasoning and NLU), and TTS APIs, combined with database connectors and orchestration frameworks like LangChain or LlamaIndex, allows sophisticated custom agents to be built in weeks rather than months.
 
 This approach offers maximum flexibility and the ability to keep sensitive data within organizational boundaries, but requires ongoing engineering investment and carries more implementation risk than commercial platforms.
 
@@ -460,7 +460,7 @@ The voice analytics landscape of 2025 is impressive, but the trajectory of devel
 The Voice AI Evolution Timeline: From IVR to Autonomous Analytics Agents.
 :::
 
-**Real-time multimodal reasoning** — the ability to simultaneously process voice, images, video, and text in a unified model — is rapidly maturing. Systems like GPT-4o and Gemini 1.5 Pro demonstrate the ability to reason across modalities with low latency. For analytics, this means voice agents that can look at a dashboard on your screen while you ask questions about it, or that can process a photograph of a physical environment (a store shelf, a manufacturing line, a logistics dock) while you ask analytical questions about what they observe.
+**Real-time multimodal reasoning** — the ability to simultaneously process voice, images, video, and text in a unified model — is rapidly maturing. Systems like GPT-4o, o3-mini, and Gemini 2.0 Flash demonstrate the ability to reason across modalities with low latency, with sub-300ms voice response times now achievable in production deployments. For analytics, this means voice agents that can look at a dashboard on your screen while you ask questions about it, or that can process a photograph of a physical environment (a store shelf, a manufacturing line, a logistics dock) while you ask analytical questions about what they observe.
 
 **Persistent memory and personalization** will dramatically increase the value of voice analytics agents over time. Future agents will build detailed models of individual users — their analytical preferences, their domain expertise, their common query patterns, their cognitive style — and adapt their communication style, level of detail, and proactive alert patterns accordingly. The agent that has worked with a supply chain analyst for two years will provide fundamentally different, more valuable interactions than the same agent on its first day.
 

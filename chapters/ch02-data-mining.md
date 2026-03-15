@@ -346,7 +346,7 @@ Time Series Forecasting: Decomposing trend and seasonality to project future bus
 
 ### 2.5.3 Data Mining in the Age of Generative AI
 
-The rise of large language models (LLMs) like GPT-4, Claude, and Gemini has fundamentally transformed the data mining landscape in ways that are still unfolding. These models represent a new form of "pattern mining" — trained on vast corpora of text data to learn language structure, world knowledge, and reasoning patterns — but they also serve as powerful *tools for supporting* traditional data mining workflows.
+The rise of large language models (LLMs) like GPT-4o/o3 (OpenAI), Claude Sonnet 4.5 (Anthropic), and Gemini 2.0 (Google) has fundamentally transformed the data mining landscape. By 2025–2026, these models serve not just as text generators but as reasoning partners capable of designing entire data mining workflows, writing and debugging code, and interpreting complex model outputs for non-technical stakeholders. These models represent a new form of "pattern mining" — trained on vast corpora of text data to learn language structure, world knowledge, and reasoning patterns — but they also serve as powerful *tools for supporting* traditional data mining workflows.
 
 Business analysts now use LLMs to:
 - **Generate and explain code**: Write Python or R scripts for data preprocessing, modeling, and visualization, then explain what the code does.
@@ -371,7 +371,7 @@ Building a predictive model that performs well on a test dataset is, in many org
 - A churn prediction model that a data scientist runs manually in a Jupyter notebook once per quarter and emails results to the marketing team as a spreadsheet attachment.
 - A churn prediction model embedded in the company's CRM system that automatically scores every customer daily, triggers personalized retention offers via email for high-risk customers, and logs all interventions and outcomes for continuous model retraining.
 
-The first scenario delivers some value; the second delivers transformational value. The gap between them involves engineering work, organizational processes, stakeholder alignment, and governance frameworks — none of which are purely technical challenges. According to Gartner research, fewer than 54% of AI and data science projects make it from pilot to production. Understanding this deployment gap is essential for any business analytics professional who aspires to drive real organizational impact.
+The first scenario delivers some value; the second delivers transformational value. The gap between them involves engineering work, organizational processes, stakeholder alignment, and governance frameworks — none of which are purely technical challenges. According to Gartner research, only about 54% of AI and data science projects successfully transition from pilot to production — a figure that has remained stubbornly persistent despite improvements in MLOps tooling. A 2024 McKinsey survey found that while 78% of organizations report using AI in at least one business function, only a minority have achieved enterprise-wide deployment with measurable ROI. Understanding this deployment gap is essential for any business analytics professional who aspires to drive real organizational impact.
 
 ### 2.6.2 Model Governance and the Ethical Dimension
 

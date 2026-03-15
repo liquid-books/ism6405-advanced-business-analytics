@@ -41,7 +41,7 @@ Welcome to the chapter where language becomes data, and data becomes competitive
 **Natural Language Processing (NLP)** is the subfield of artificial intelligence and computational linguistics concerned with enabling computers to understand, interpret, generate, and manipulate human language in all its forms — written, spoken, and symbolic. In the context of business analytics, NLP provides the methods and tools to extract structured, quantifiable insight from unstructured text data at scale.
 :::
 
-NLP is not a single algorithm or technique — it is an entire discipline spanning linguistics, statistics, and deep learning. At the shallow end of the technical spectrum, you have rule-based systems and frequency counts. At the deep end, you have transformer architectures with billions of parameters — models like BERT, GPT-4, and Google's Gemini — that have been trained on essentially the entire readable internet and can perform extraordinary language tasks. Most real-world business applications sit somewhere in the middle: combining classical preprocessing pipelines with modern pre-trained models to achieve accuracy, speed, and interpretability at acceptable cost.
+NLP is not a single algorithm or technique — it is an entire discipline spanning linguistics, statistics, and deep learning. At the shallow end of the technical spectrum, you have rule-based systems and frequency counts. At the deep end, you have transformer architectures with billions of parameters — models like BERT, GPT-4o, Claude Sonnet 4.5, and Google's Gemini 2.0 — that have been trained on essentially the entire readable internet and can perform extraordinary language tasks. Most real-world business applications sit somewhere in the middle: combining classical preprocessing pipelines with modern pre-trained models to achieve accuracy, speed, and interpretability at acceptable cost.
 
 The business case for NLP is compelling. Consider a telecommunications company managing a call center that handles fifty thousand customer interactions per day. Human agents transcribe notes, but reading every note to detect systemic service failures is impossible. An NLP pipeline can process those notes overnight, surface recurring complaint themes, flag high-frustration interactions, and route insights to product and operations teams by morning. That is not a futuristic scenario — it is current practice at firms like Verizon, T-Mobile, and Comcast.
 
@@ -369,7 +369,7 @@ for r in results:
     print(f"Label: {r['label']}, Score: {r['score']:.4f}")
 ```
 
-In the AI era, even zero-shot prompting of a large language model (sending a review to GPT-4 or Gemini with the instruction "classify the sentiment of this text") often matches or exceeds fine-tuned classifiers, with the added benefit of requiring no labeled data and producing explanations for its classifications.
+In the AI era, even zero-shot prompting of a large language model (sending a review to GPT-4o, Claude Sonnet 4.5, or Gemini 2.0 Flash with the instruction "classify the sentiment of this text") often matches or exceeds fine-tuned classifiers, with the added benefit of requiring no labeled data and producing explanations for its classifications.
 
 ### 3.3.3 Aspect-Based Sentiment Analysis (ABSA)
 
