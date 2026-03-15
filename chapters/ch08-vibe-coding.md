@@ -587,6 +587,12 @@ Based on the Accenture case study, critically analyze the tradeoffs involved in 
 
 ---
 
+
+### 📝 Discussion Guidelines
+
+- **Primary Response:** Your initial post must address all parts of the prompt with depth and critical thinking. It must include **at least one citation** (scholarly or credible industry source) to support your argument.
+- **Peer Responses:** You must respond thoughtfully to **at least two of your peers**. Your responses must go beyond simple agreement (e.g., "I agree with your point") and add substantial value to the conversation by offering an alternative perspective, sharing related research, or asking a challenging follow-up question.
+
 ## Chapter Quiz
 
 **Instructions**: Select the best answer for each question. Each question is worth 10 points.

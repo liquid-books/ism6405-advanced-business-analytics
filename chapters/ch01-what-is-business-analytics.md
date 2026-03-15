@@ -436,9 +436,15 @@ Consider both sides of this debate carefully. Drawing on the concepts introduced
 3. How should organizations like Netflix balance algorithmic insight with human creative and ethical judgment? Propose a practical framework for this balance that a Chief Data Officer at a media company could actually implement.
 4. If you were an analytics translator on Netflix's content strategy team in 2012, what additional data sources or analyses would you have wanted to see before recommending the "House of Cards" investment? What are the limits of what data can tell you in this situation?
 
-*This discussion question is designed for small-group debate (3–4 students per group) followed by a full-class debrief. Come prepared to defend your position with specific reasoning rooted in the chapter content.*
+
 
 ---
+
+
+### 📝 Discussion Guidelines
+
+- **Primary Response:** Your initial post must address all parts of the prompt with depth and critical thinking. It must include **at least one citation** (scholarly or credible industry source) to support your argument.
+- **Peer Responses:** You must respond thoughtfully to **at least two of your peers**. Your responses must go beyond simple agreement (e.g., "I agree with your point") and add substantial value to the conversation by offering an alternative perspective, sharing related research, or asking a challenging follow-up question.
 
 ## 1.12 Chapter Quiz
 

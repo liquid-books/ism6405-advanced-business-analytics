@@ -365,7 +365,7 @@ Drawing on the JPMorgan COIN case and the frameworks presented in this chapter, 
 
 5. JPMorgan operated at massive scale with substantial AI development resources. What modifications to their approach would you make given your institution's smaller scale and more limited technical capacity?
 
-*This discussion question is designed for a 45-60 minute seminar format. Students should prepare a 2-3 page structured response prior to class and be prepared to defend their governance and change management positions under challenge from peers and the instructor.*
+
 
 ---
 
@@ -763,6 +763,12 @@ Your hands-on experience with Vapi.ai in this chapter represents a microcosm of 
 **Vapi.ai** — A production-grade platform for building and deploying voice AI agents, supporting real-time telephony and web-based voice interactions with LLM reasoning and tool calling.
 
 ---
+
+
+### 📝 Discussion Guidelines
+
+- **Primary Response:** Your initial post must address all parts of the prompt with depth and critical thinking. It must include **at least one citation** (scholarly or credible industry source) to support your argument.
+- **Peer Responses:** You must respond thoughtfully to **at least two of your peers**. Your responses must go beyond simple agreement (e.g., "I agree with your point") and add substantial value to the conversation by offering an alternative perspective, sharing related research, or asking a challenging follow-up question.
 
 ## Chapter Quiz
 

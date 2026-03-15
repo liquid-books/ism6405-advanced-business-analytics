@@ -492,6 +492,13 @@ By the early 2020s, as LLM-based conversational AI emerged, Nationwide — like 
 
 ---
 
+### 📝 Discussion Guidelines
+
+- **Primary Response:** Your initial post must address all parts of the prompt with depth and critical thinking. It must include **at least one citation** (scholarly or credible industry source) to support your argument.
+- **Peer Responses:** You must respond thoughtfully to **at least two of your peers**. Your responses must go beyond simple agreement (e.g., "I agree with your point") and add substantial value to the conversation by offering an alternative perspective, sharing related research, or asking a challenging follow-up question.
+
+---
+
 ## 7.12 Quiz: Chapter 7 Assessment
 
 **Instructions**: Answer all 10 questions. Questions 1–7 are multiple choice; questions 8–10 are short answer.

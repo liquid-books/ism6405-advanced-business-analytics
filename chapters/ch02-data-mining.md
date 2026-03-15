@@ -552,6 +552,12 @@ Carefully read the case background above and reflect on the following questions.
 
 ---
 
+
+### 📝 Discussion Guidelines
+
+- **Primary Response:** Your initial post must address all parts of the prompt with depth and critical thinking. It must include **at least one citation** (scholarly or credible industry source) to support your argument.
+- **Peer Responses:** You must respond thoughtfully to **at least two of your peers**. Your responses must go beyond simple agreement (e.g., "I agree with your point") and add substantial value to the conversation by offering an alternative perspective, sharing related research, or asking a challenging follow-up question.
+
 ## 2.9 Chapter Quiz
 
 The following ten questions assess your comprehension of the concepts covered in Chapter 2. Questions vary in format and difficulty. Your instructor will advise whether this is a graded assessment or a self-assessment exercise.
