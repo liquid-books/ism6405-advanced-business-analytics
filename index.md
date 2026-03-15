@@ -5,7 +5,12 @@ description: |
 ---
 
 # ISM 6405 Advanced Business Analytics
-:::{figure} ./images/cover.png
+:::
+:::{grid-item-card} Chapter 1: What is Business Analytics and Data Science
+:link: ./chapters/ch01-what-is-business-analytics.md
+Introductory concepts, data science vs analytics.
+:::
+{figure} ./images/cover.png
 :width: 300px
 :align: center
 :::

@@ -21,6 +21,8 @@ project:
   # Table of contents — chapters added here as they are written
   toc:
     - file: index.md
+    - file: chapters/ch01-what-is-business-analytics.md
+      title: "Chapter 1: What is Business Analytics and Data Science"
 
 site:
   title: "ISM 6405 Advanced Business Analytics"

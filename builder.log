@@ -1,0 +1,28 @@
+
+
+--- Building Chapter 1: What is Business Analytics and Data Science ---
+Generating text...
+Parsing images...
+Generating image: ch01-hero.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch01-hero.png","size":1690503,"sizeKB":"1650.9","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch01-fig1.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch01-fig1.png","size":1631119,"sizeKB":"1592.9","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch01-fig2.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch01-fig2.png","size":1535149,"sizeKB":"1499.2","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch01-fig3.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch01-fig3.png","size":1507741,"sizeKB":"1472.4","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch01-fig4.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch01-fig4.png","size":1605713,"sizeKB":"1568.1","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch01-fig5.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch01-fig5.png","size":1512927,"sizeKB":"1477.5","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch01-fig6.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch01-fig6.png","size":1705619,"sizeKB":"1665.6","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch01-fig7.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch01-fig7.png","size":1517974,"sizeKB":"1482.4","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch01-fig8.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch01-fig8.png","size":1691557,"sizeKB":"1651.9","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch01-fig9.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch01-fig9.png","size":1559351,"sizeKB":"1522.8","model":"gemini-3.1-flash-image-preview"}
+Updating myst.yml TOC...
+Updating index.md...
+Committing and pushing...
