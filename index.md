@@ -12,488 +12,594 @@ description: "An in-depth examination of business analytics methods in the AI er
 
 # ISM 6405: Advanced Business Analytics
 
-**Transforming Decision Intelligence in the Age of Artificial Intelligence**
+**Transforming Data into Strategic Intelligence in the Age of AI**
 
-*Dr. Ernesto Lee | College of Business | Florida Atlantic University*
+*Dr. Ernesto Lee | Florida Atlantic University | College of Business*
 
 ---
 
-```{note}
-This course is continuously updated to reflect the rapidly evolving landscape of AI-powered analytics. Bookmark this page and check back regularly for new tools, case studies, and resources.
-```
-
-```{admonition} A Message from Dr. Lee
+```{admonition} 🚀 Welcome to the Future of Analytics
 :class: tip
 
-We are living through the most consequential disruption in the history of business analytics. The tools on this page are not supplements to your education — **they are the education**. Every platform listed here represents a skill set that employers are actively seeking, and in many cases, struggling to find. Welcome to the frontier.
+This course is not a traditional textbook experience. It is a **living, evolving curriculum** built at the intersection of rigorous analytical thinking and the most disruptive AI tools reshaping the business world. You will not just learn analytics — you will practice it, argue with it, and build with it.
 ```
+
+---
+
+## About This Textbook
+
+This open textbook serves as the primary resource for **ISM 6405: Advanced Business Analytics**, a graduate-level course in the **Master of Science in Management Information Systems (MS-MIS)** program at **Florida Atlantic University**. Written and continuously updated by **Dr. Ernesto Lee**, this text reflects a core conviction: *analytics education must evolve at the speed of the tools that are redefining the profession.*
+
+Every chapter in this book is designed to be immediately actionable. You will leave each module with working code, tested frameworks, and real-world deliverables — not just slides or definitions.
+
+> *"The analyst who understands both the mathematics and the machine will be the most valuable professional in any organization over the next decade."*
+> — Dr. Ernesto Lee
 
 ---
 
 ## 🎓 Course Information
 
-| | |
-|---|---|
-| **Course** | ISM 6405 – Advanced Business Analytics |
-| **Credits** | 3 Graduate Credit Hours |
-| **Institution** | Florida Atlantic University |
-| **College** | College of Business |
-| **Format** | Hybrid / Online |
-| **Prerequisites** | ISM 6136 or equivalent graduate-level statistics/analytics course |
-| **Instructor** | Dr. Ernesto Lee |
+::::{grid} 2
+:::{grid-item-card} 📋 Course Details
+- **Course Number:** ISM 6405
+- **Credits:** 3 Graduate Credit Hours
+- **Format:** Hybrid / Online
+- **Institution:** Florida Atlantic University
+- **College:** College of Business
+- **Program:** MS-MIS / MBA Analytics Track
+:::
+:::{grid-item-card} 👨‍🏫 Instructor
+- **Instructor:** Dr. Ernesto Lee
+- **Department:** Information Systems & Operations Management
+- **Office:** Fleming Hall, FAU Boca Raton
+- **Email:** elee@fau.edu
+- **Office Hours:** By appointment via Calendly
+:::
+::::
 
 ---
 
-## 🌊 The Disruption Is Already Here
+## 📖 Course Description
 
-```{epigraph}
-"The question is no longer whether AI will transform business analytics. It already has. The question is whether *you* will be the one leading that transformation — or struggling to keep up with it."
+Advanced Business Analytics occupies a rare and urgent space in graduate education: it sits precisely at the boundary between **what data science has been** and **what AI is making it become**.
 
--- Dr. Ernesto Lee
+This course provides graduate students with an advanced, hands-on foundation in business analytics methods, tools, and strategic applications. Students will develop mastery in descriptive, predictive, and prescriptive analytics while simultaneously grappling with the profound ways that **generative AI, large language models (LLMs), and AI-powered agents** are restructuring every layer of the analytics pipeline.
+
+We will examine how organizations collect, process, model, and act on data — and we will challenge every assumption about that process in light of tools that can now write code, synthesize research, conduct interviews, generate dashboards, and make recommendations autonomously.
+
+### The Disruption We Cannot Ignore
+
+The analytics profession is undergoing its most significant transformation since the spreadsheet. Consider:
+
+- **Code generation tools** like Claude and GitHub Copilot have democratized Python and R programming, shifting the competitive advantage from syntax knowledge to problem formulation.
+- **AI research assistants** like NotebookLM can synthesize entire bodies of literature in minutes, changing how analysts consume and apply knowledge.
+- **Autonomous agents** like Manus can execute multi-step analytical workflows without human intervention at each stage.
+- **Conversational AI interfaces** like Vapi enable voice-driven analytics interactions, expanding who can interact with data and how.
+
+```{warning}
+If you are expecting a course that teaches you to manually build everything from scratch without leveraging AI tools, this is not that course. If you are expecting a course where AI tools do all the work for you, this is also not that course. We occupy the rigorous middle ground: **AI-augmented analytical excellence**.
 ```
 
-In 2024 and beyond, the role of the business analyst has been irrevocably redefined. What once required a team of data scientists, BI developers, and consultants can now be initiated by a single analyst equipped with the right AI-augmented tools. Large language models (LLMs) write code. Multimodal agents synthesize research. Voice interfaces democratize data access. Autonomous AI systems execute multi-step analytical workflows end-to-end.
-
-This is not a distant forecast. **This is your present professional environment.**
-
-ISM 6405 is designed to ensure that you enter that environment not as a passive observer, but as a confident, capable, and critically thinking analytics professional who understands both the extraordinary power and the real-world limitations of AI-driven tools.
+This course prepares you not just to use these tools, but to **evaluate, integrate, critique, and lead with them** in organizational settings.
 
 ---
 
-## 📋 Course Description
-
-ISM 6405: Advanced Business Analytics is a graduate-level course that equips students with both the **conceptual frameworks** and **hands-on technical proficiencies** needed to design, execute, and communicate sophisticated analytics solutions in modern enterprise environments.
-
-This course goes beyond traditional analytics curricula. While we rigorously cover foundational methods — statistical inference, predictive modeling, data visualization, and optimization — we embed these methods within an **AI-augmented analytics workflow** that reflects actual practice in leading organizations. Students will leverage cutting-edge AI platforms to accelerate analysis, generate code, synthesize research, and prototype solutions at a pace previously impossible.
-
-The course is organized around four interconnected pillars:
-
-```{list-table} The Four Pillars of ISM 6405
-:header-rows: 1
-:widths: 10 25 65
-
-* - #
-  - Pillar
-  - Description
-* - 1
-  - **Foundations**
-  - Statistical and machine learning foundations underpinning modern business analytics, with AI-assisted implementation
-* - 2
-  - **Intelligence**
-  - Applied AI tools — including LLMs, agents, and multimodal systems — integrated into real analytical pipelines
-* - 3
-  - **Decision**
-  - Translating analytical outputs into executable business decisions using structured frameworks and communication strategies
-* - 4
-  - **Ethics & Governance**
-  - Responsible AI use, data privacy, algorithmic bias, and enterprise governance of AI-powered analytics
-```
-
-Graduate students in this course will complete real-world projects, engage with industry data, and graduate with a **portfolio of AI-augmented analytics work** that demonstrates both technical competence and strategic thinking.
-
----
-
-## 🎯 Course Objectives
+## 🎯 Learning Objectives
 
 Upon successful completion of ISM 6405, students will be able to:
 
-```{admonition} Learning Objectives
-:class: note
+### Analytical Foundations
 
-**1. Master Advanced Analytical Methods**
-Apply regression analysis, classification, clustering, time series forecasting, and optimization techniques to complex business datasets, using AI-assisted tools to accelerate implementation without sacrificing conceptual understanding.
+```{list-table} Core Learning Objectives
+:header-rows: 1
+:widths: 5 45 50
 
-**2. Design AI-Augmented Analytics Workflows**
-Architect end-to-end analytics pipelines that strategically incorporate large language models, AI agents, and automation tools — understanding where AI adds value and where human judgment remains essential.
-
-**3. Develop Proficiency in Professional-Grade Tools**
-Demonstrate working competency in the complete toolkit of the modern business analyst, including cloud-based notebooks, AI copilots, autonomous agents, and voice-enabled analytics interfaces.
-
-**4. Translate Data Into Strategic Decisions**
-Structure analytical findings into clear, compelling narratives for executive and non-technical audiences, using visualization and storytelling techniques grounded in business strategy.
-
-**5. Evaluate AI Outputs Critically**
-Interrogate AI-generated analyses, code, and insights with appropriate skepticism — identifying hallucinations, statistical errors, and contextual misapplications that could lead to flawed business decisions.
-
-**6. Navigate Ethics, Bias, and Governance**
-Apply ethical frameworks to real-world analytics scenarios involving sensitive data, automated decision-making, and algorithmic fairness — and develop governance recommendations appropriate for enterprise AI deployment.
-
-**7. Collaborate in Distributed Analytics Environments**
-Work effectively in hybrid team environments that mirror modern enterprise analytics units, using AI tools to enhance — not replace — collaborative human intelligence.
-
-**8. Build a Professional Analytics Portfolio**
-Produce publishable-quality analytical projects that demonstrate mastery of advanced methods, AI tool integration, and business communication — ready for presentation to employers and graduate admissions committees.
+* - #
+  - Objective
+  - Assessment Method
+* - 1
+  - Apply descriptive, predictive, and prescriptive analytics frameworks to complex, real-world business datasets
+  - Case Analyses, Project Deliverables
+* - 2
+  - Design and execute end-to-end analytics pipelines using Python in cloud-based environments
+  - Lab Notebooks, GitHub Portfolio
+* - 3
+  - Construct and evaluate machine learning models for classification, regression, clustering, and forecasting
+  - Model Evaluation Reports
+* - 4
+  - Translate quantitative findings into strategic business narratives for executive audiences
+  - Presentations, Executive Memos
+* - 5
+  - Critically assess the ethical implications of algorithmic decision-making and AI deployment in business
+  - Reflection Papers, Debate Participation
+* - 6
+  - Leverage AI-powered tools to accelerate, augment, and quality-check analytical workflows
+  - Tool Integration Assignments
+* - 7
+  - Design analytical solutions that address specific organizational problems with measurable KPIs
+  - Capstone Project
+* - 8
+  - Evaluate the organizational readiness for analytics adoption and recommend data governance strategies
+  - Consulting Simulation
 ```
+
+### Competency Domains
+
+::::{grid} 3
+:::{grid-item-card} 🧠 Think
+**Analytical Reasoning**
+
+Formulate the right business question before reaching for a tool. Distinguish signal from noise. Challenge model assumptions. Understand when analytics cannot provide the answer you need.
+:::
+:::{grid-item-card} 🔧 Build
+**Technical Execution**
+
+Write, test, and document Python-based analytical solutions. Deploy models in shareable, reproducible environments. Build dashboards and reports that drive decisions.
+:::
+:::{grid-item-card} 🎤 Communicate
+**Strategic Influence**
+
+Present findings to non-technical stakeholders with clarity and conviction. Write executive summaries. Defend methodological choices under scrutiny.
+:::
+::::
 
 ---
 
 ## 🛠️ Tools & Technology Stack
 
+One of the distinguishing features of ISM 6405 is its **commitment to tool literacy**. The following technologies are integrated throughout the course — not as optional supplements, but as core components of your professional development.
+
 ```{admonition} Philosophy on Tools
-:class: important
-
-In this course, tools are not optional. Proficiency in the platforms below is a **core learning outcome**, not a convenience. Each tool is selected because it represents either (a) an industry standard in the modern analytics ecosystem or (b) an emergent technology that is rapidly becoming one. You will not simply use these tools — you will develop the judgment to know *when* and *why* to deploy each one.
+:class: note
+Tools change. Principles do not. For each tool we use, you will learn *what problem it solves*, *why it matters to analytics professionals*, and *how to evaluate its outputs critically*. Knowing how to use a hammer is less valuable than knowing when the project calls for a hammer and when it calls for something else entirely.
 ```
 
-### 🔵 Computational & Development Environment
+### ☁️ Google Colab
+
+**Role in Course:** Primary coding and notebook environment
+
+Google Colaboratory is a free, cloud-based Jupyter notebook environment that requires zero local setup. All course labs and coding assignments are delivered as Colab notebooks.
+
+::::{grid} 2
+:::{grid-item}
+**Why We Use It:**
+- Zero-friction environment for graduate students across all hardware configurations
+- Native GPU/TPU access for machine learning workloads
+- Seamless sharing and collaboration without version conflicts
+- Direct integration with Google Drive for data management
+- Pre-installed Python data science stack (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, TensorFlow, PyTorch)
+:::
+:::{grid-item}
+**What You'll Learn:**
+- Notebook-based analytical workflows and documentation best practices
+- Efficient data loading from multiple sources (Drive, GitHub, APIs)
+- Reproducibility standards for professional analytics work
+- Collaboration protocols for team-based analytical projects
+- Resource management for large-scale computations
+:::
+::::
 
 ---
 
-#### Google Colab
+### 📚 NotebookLM
 
-```{image} https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg
-:alt: Google Colab Logo
-:width: 80px
-:align: right
-```
+**Role in Course:** AI-powered research synthesis and course material interaction
 
-**Role in Course:** Primary computation and development environment
+Google's NotebookLM is an AI research assistant that allows you to upload source documents — research papers, datasets descriptions, case studies, textbook chapters — and then ask questions, request summaries, and generate study guides grounded exclusively in those sources.
 
-Google Colab is our home base for all computational work in ISM 6405. As a cloud-hosted Jupyter notebook environment with free access to GPU/TPU resources, Colab eliminates hardware barriers and ensures every student works in a consistent, reproducible environment.
-
-**What you will do in Colab:**
-- Write and execute Python code for data wrangling, statistical modeling, and machine learning
-- Build interactive visualizations using libraries including `matplotlib`, `seaborn`, `plotly`, and `altair`
-- Train and evaluate predictive models using `scikit-learn`, `statsmodels`, and `XGBoost`
-- Integrate AI APIs directly into analytical workflows
-- Share reproducible notebooks as portfolio artifacts
-
-**Why it matters:** Colab-style notebook environments are the dominant paradigm for collaborative data science in both academic research and enterprise analytics. Fluency here is non-negotiable.
-
----
-
-#### NotebookLM
-
-**Role in Course:** AI-powered research synthesis and knowledge management
-
-Google's NotebookLM represents a paradigm shift in how analysts engage with source material. By grounding a large language model in *your specific uploaded documents*, NotebookLM eliminates hallucination risk for document-specific queries and enables rapid, reliable synthesis of large research corpora.
-
-**What you will do with NotebookLM:**
-- Upload industry reports, academic papers, and case studies to create project-specific knowledge bases
-- Generate structured summaries, FAQ documents, and podcast-style audio overviews of complex material
-- Cross-reference multiple sources to identify convergent findings and contradictory evidence
-- Accelerate the literature review and background research phases of analytics projects
-- Create study guides and concept maps for course content
-
-**Why it matters:** The ability to rapidly synthesize large bodies of information is one of the highest-value cognitive skills in business analytics. NotebookLM amplifies this capability dramatically.
+::::{grid} 2
+:::{grid-item}
+**Why We Use It:**
+- Transforms passive reading into active dialogue with course materials
+- Enables rapid synthesis of academic literature for project research
+- Grounds AI responses in specific, cited sources — reducing hallucination risk
+- Creates personalized study guides, timelines, and concept maps
+- Audio Overview feature converts complex readings into accessible podcast-style summaries
+:::
+:::{grid-item}
+**What You'll Learn:**
+- Strategic prompting for research synthesis
+- Critical evaluation of AI-generated summaries against source material
+- Using AI tools to accelerate literature reviews without sacrificing rigor
+- Building personal knowledge bases for ongoing professional development
+- Identifying the limits and failure modes of retrieval-augmented AI systems
+:::
+::::
 
 ---
 
-### 🟣 AI Reasoning & Code Generation
+### 🤖 Manus
 
----
+**Role in Course:** Autonomous multi-step analytics agent workflows
 
-#### Claude (Anthropic)
+Manus represents a new category of AI tool: the **autonomous agent**. Unlike chatbots that respond to single prompts, Manus can be given complex, multi-step objectives and will independently plan, execute, browse, code, and deliver structured outputs.
 
-**Role in Course:** Primary AI reasoning partner and code assistant
-
-Claude, developed by Anthropic with a strong emphasis on safety, nuance, and extended reasoning, serves as the primary AI collaborator in ISM 6405. Unlike general-purpose chatbots, Claude excels at complex analytical reasoning, long-context document analysis, and the kind of structured, step-by-step problem decomposition that mirrors good analytical thinking.
-
-**What you will do with Claude:**
-- Generate, debug, and refactor Python code for analytical tasks — then critically evaluate what was generated
-- Structure analytical arguments and business recommendations
-- Conduct extended dialogues that refine research questions and analytical designs
-- Analyze lengthy business documents, financial reports, and policy texts
-- Practice the discipline of **prompt engineering** — learning to communicate precisely with AI systems to produce reliable outputs
-
-**Why it matters:** Proficiency with LLMs like Claude is rapidly becoming as foundational as Excel proficiency was a decade ago. This course teaches you to use Claude as a **thinking partner**, not a shortcut — understanding its limitations as clearly as its capabilities.
+::::{grid} 2
+:::{grid-item}
+**Why We Use It:**
+- Demonstrates the frontier of agentic AI in business analytics contexts
+- Executes competitive analysis, data collection, and report generation tasks autonomously
+- Challenges students to think about workflow design, not just task execution
+- Provides exposure to the class of tools that will most significantly reshape analyst roles
+- Introduces concepts of human-in-the-loop oversight and agentic AI governance
+:::
+:::{grid-item}
+**What You'll Learn:**
+- How to decompose complex analytical objectives into agent-executable task specifications
+- Quality control and validation of AI-generated analytical outputs
+- Designing oversight checkpoints in agentic analytical pipelines
+- Evaluating when autonomous agents add value versus when human judgment is irreplaceable
+- Articulating the organizational risks and benefits of agentic AI deployment
+:::
+::::
 
 ```{warning}
-All AI-generated content submitted as part of course deliverables must be **disclosed, interrogated, and validated**. Uncritical reliance on AI outputs — without verification and contextual judgment — is itself an analytical failure. We will practice responsible AI use throughout the course.
+Autonomous agents like Manus operate with significant independence. A central theme of this course is that **tool capability does not equal tool wisdom**. We will spend considerable time developing frameworks for evaluating agent outputs, identifying errors, and maintaining analytical integrity.
 ```
 
 ---
 
-### 🟠 Autonomous AI Agents
+### 💬 Claude (Anthropic)
+
+**Role in Course:** AI coding partner, analytical thought partner, and writing assistant
+
+Claude is Anthropic's large language model — widely regarded as one of the most capable and safety-conscious AI assistants available. In this course, Claude serves multiple roles: code generator, code reviewer, analytical sounding board, and writing partner.
+
+::::{grid} 2
+:::{grid-item}
+**Why We Use It:**
+- Exceptional performance on Python code generation, debugging, and explanation
+- Strong capability for analytical reasoning and structured problem decomposition
+- Superior long-context handling — can read and analyze full datasets, papers, and reports
+- Thoughtful, nuanced responses that model good analytical communication
+- Anthropic's emphasis on interpretability aligns with our course's focus on explainable analytics
+:::
+:::{grid-item}
+**What You'll Learn:**
+- Prompt engineering for analytical tasks (code generation, data interpretation, hypothesis generation)
+- Using AI as a code reviewer and learning accelerator — not a shortcut
+- Iterative dialogue with AI to refine models, interpretations, and recommendations
+- Understanding the difference between Claude's strengths and its limitations
+- Responsible academic and professional use of AI writing assistance
+:::
+::::
 
 ---
 
-#### Manus
+### 🎙️ Vapi
 
-**Role in Course:** Autonomous multi-step AI agent for complex analytical tasks
+**Role in Course:** Voice AI development and conversational analytics interfaces
 
-Manus represents the leading edge of what AI can currently accomplish autonomously. As a general-purpose AI agent capable of independently browsing the web, writing and executing code, managing files, and orchestrating multi-step workflows, Manus fundamentally challenges traditional conceptions of what an analytics professional *does* versus what an analytics professional *directs*.
+Vapi is a developer platform for building voice AI applications. In the context of this course, it represents the rapidly expanding frontier of **conversational and voice-driven analytics** — where business users interact with data through natural language speech rather than dashboards or queries.
 
-**What you will do with Manus:**
-- Delegate complex, multi-step research and analysis tasks to an autonomous agent
-- Critically evaluate the quality and accuracy of agent-produced work outputs
-- Design task prompts and constraints that guide agent behavior toward reliable analytical outcomes
-- Explore the frontier of human-AI collaborative analytics workflows
-- Reflect on the strategic and organizational implications of agentic AI deployment
-
-**Why it matters:** Agentic AI systems are moving rapidly from novelty to enterprise deployment. Understanding how to work *with* agents — directing them effectively, validating their outputs, and maintaining accountability for results — is a defining competency of the next generation of analytics leaders.
-
-```{admonition} Critical Thinking Checkpoint
-:class: caution
-
-Manus and similar autonomous agents can produce outputs that *look* authoritative but contain errors, outdated information, or inappropriate assumptions. A significant portion of our work with agentic AI will focus on **evaluation, verification, and critical interrogation** of agent outputs. The analyst who cannot catch an agent's mistakes is not enhanced by the agent — they are made vulnerable by it.
-```
-
----
-
-### 🟢 Voice AI & Conversational Analytics
-
----
-
-#### Vapi
-
-**Role in Course:** Voice AI platform for conversational analytics interfaces
-
-Vapi is a developer platform for building voice-based AI applications — enabling analysts to create sophisticated conversational interfaces powered by LLMs. As voice becomes an increasingly prevalent modality for business intelligence interaction, the ability to design and deploy voice analytics experiences is an emerging differentiator.
-
-**What you will do with Vapi:**
-- Design and configure AI voice agents connected to analytical back-ends
-- Explore conversational UI/UX principles for analytics applications
-- Build prototype voice-enabled dashboards and data query interfaces
-- Investigate use cases including executive briefing bots, customer analytics kiosks, and field data collection systems
-- Reflect on accessibility, inclusion, and the democratization of data access through voice interfaces
-
-**Why it matters:** The future of business intelligence is multimodal. Voice interfaces dramatically expand who can access analytical insights — from frontline workers without keyboard access to executives who need briefings on-the-go. Vapi gives you direct experience designing this future.
+::::{grid} 2
+:::{grid-item}
+**Why We Use It:**
+- Represents the accessibility frontier of analytics — voice as the universal interface
+- Exposes students to conversational AI design, a growing area of analytics application
+- Enables rapid prototyping of voice-enabled business intelligence applications
+- Connects analytics to emerging enterprise use cases (voice assistants for sales, operations, customer service)
+- Develops understanding of speech-to-text, intent recognition, and response generation pipelines
+:::
+:::{grid-item}
+**What You'll Learn:**
+- Designing conversational flows for analytics use cases
+- Building and testing simple voice AI agents using Vapi's API
+- Understanding the analytics data pipeline behind a voice interface
+- Evaluating UX considerations for non-technical users accessing analytics via voice
+- Prototyping a voice-enabled analytics feature as part of a capstone component
+:::
+::::
 
 ---
 
-### Additional Tools in Our Ecosystem
+### Additional Tools in the Ecosystem
 
-```{list-table} Supporting Tools & Platforms
+::::{grid} 3
+:::{grid-item-card} 🐍 Python
+**Core Language**
+
+Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly, Statsmodels, XGBoost, SHAP
+:::
+:::{grid-item-card} 📊 Tableau / Power BI
+**Visualization**
+
+Business intelligence dashboards, executive-facing data storytelling, interactive visualization design
+:::
+:::{grid-item-card} 🗄️ SQL + BigQuery
+**Data Engineering**
+
+Querying structured data at scale, Google BigQuery for cloud analytics, data pipeline fundamentals
+:::
+::::
+
+::::{grid} 3
+:::{grid-item-card} 🔗 GitHub
+**Version Control**
+
+Analytical portfolio development, reproducible research practices, collaborative project management
+:::
+:::{grid-item-card} 📡 REST APIs
+**Data Acquisition**
+
+Connecting to external data sources, JSON parsing, real-time data streams for analytics
+:::
+:::{grid-item-card} 🧩 LangChain
+**LLM Integration**
+
+Programmatically chaining LLM capabilities into analytics pipelines and applications
+:::
+::::
+
+---
+
+## 📅 Course Structure & Topics
+
+### Module Overview
+
+```{list-table} Course Modules
 :header-rows: 1
-:widths: 20 20 60
+:widths: 8 30 30 32
 
-* - Tool
-  - Category
-  - Application in ISM 6405
-* - **Python**
-  - Programming Language
-  - Core language for all data manipulation, modeling, and visualization work
-* - **Pandas / NumPy**
-  - Data Manipulation
-  - Foundational libraries for structured data analysis and numerical computing
-* - **Scikit-learn**
-  - Machine Learning
-  - Industry-standard ML framework for classification, regression, clustering, and model evaluation
-* - **Plotly / Dash**
-  - Visualization
-  - Interactive visualization and dashboard development for analytical communication
-* - **Tableau Public**
-  - BI Visualization
-  - Enterprise-standard visualization platform for executive-level analytics communication
-* - **Power BI**
-  - Business Intelligence
-  - Microsoft ecosystem BI platform widely deployed in enterprise environments
-* - **GitHub / GitHub Copilot**
-  - Version Control & AI Coding
-  - Portfolio management, version control, and AI-assisted development in the IDE
-* - **OpenAI API**
-  - LLM Integration
-  - Programmatic integration of GPT models into custom analytics applications
-* - **Hugging Face**
-  - Open-Source AI
-  - Access to open-source models for NLP, computer vision, and specialized analytics tasks
-* - **BigQuery / Google Cloud**
-  - Cloud Data Warehouse
-  - Enterprise-scale data storage and SQL-based analytical querying in the cloud
-* - **Streamlit**
-  - App Deployment
-  - Rapid deployment of interactive analytics applications without front-end development experience
+* - Module
+  - Title
+  - Key Concepts
+  - Primary Tools
+* - 1
+  - Foundations: The Analytics Landscape in the Age of AI
+  - Analytics maturity models, the AI disruption thesis, data strategy fundamentals
+  - NotebookLM, Claude
+* - 2
+  - Data Wrangling and Exploratory Analytics
+  - Data cleaning, feature engineering, EDA, missing data strategies
+  - Google Colab, Python (Pandas, Seaborn)
+* - 3
+  - Statistical Inference for Business Decisions
+  - Hypothesis testing, A/B testing, Bayesian thinking, causal inference foundations
+  - Google Colab, Python (Statsmodels)
+* - 4
+  - Predictive Modeling I: Supervised Learning
+  - Regression, classification, model evaluation, cross-validation, bias-variance tradeoff
+  - Google Colab, Scikit-learn, Claude
+* - 5
+  - Predictive Modeling II: Ensemble and Advanced Methods
+  - Random forests, gradient boosting, XGBoost, model explainability with SHAP
+  - Google Colab, XGBoost, SHAP
+* - 6
+  - Unsupervised Learning and Customer Analytics
+  - Clustering, dimensionality reduction, customer segmentation, market basket analysis
+  - Google Colab, Scikit-learn
+* - 7
+  - Time Series and Forecasting
+  - ARIMA, Prophet, LSTM foundations, demand forecasting in practice
+  - Google Colab, Prophet, Statsmodels
+* - 8
+  - Natural Language Processing for Business
+  - Sentiment analysis, text classification, topic modeling, LLMs for business text data
+  - Google Colab, Claude, LangChain
+* - 9
+  - Prescriptive Analytics and Decision Optimization
+  - Linear programming, simulation, decision trees under uncertainty, recommendation systems
+  - Google Colab, Python (PuLP, SimPy)
+* - 10
+  - Data Visualization and Analytics Communication
+  - Visualization theory, dashboard design, executive storytelling with data
+  - Tableau/Power BI, Plotly, Claude
+* - 11
+  - Agentic AI and the Autonomous Analytics Pipeline
+  - AI agents, workflow automation, human-in-the-loop design, agentic governance
+  - Manus, LangChain, Claude
+* - 12
+  - Voice and Conversational Analytics Interfaces
+  - Conversational AI design, voice analytics applications, accessibility in BI
+  - Vapi, Claude
+* - 13
+  - Ethics, Fairness, and Governance in Analytics
+  - Algorithmic bias, fairness metrics, data privacy, responsible AI frameworks, GDPR/CCPA
+  - All tools (critical lens)
+* - 14
+  - Capstone: Strategic Analytics Consulting Project
+  - End-to-end project delivery, stakeholder presentation, portfolio finalization
+  - Full tool stack
 ```
 
 ---
 
-## 📚 Course Structure & Topics
+## 📝 Assessment Structure
 
-```{admonition} Module Overview
+::::{grid} 2
+:::{grid-item-card} 📊 Grade Breakdown
+| Component | Weight |
+|-----------|--------|
+| Lab Notebooks (weekly) | 25% |
+| Case Analysis Reports (3) | 20% |
+| Midterm Examination | 15% |
+| Tool Integration Assignments (4) | 15% |
+| Capstone Analytics Project | 20% |
+| Participation & Peer Review | 5% |
+| **Total** | **100%** |
+:::
+:::{grid-item-card} 🏆 Grading Scale
+| Grade | Range |
+|-------|-------|
+| A | 93–100% |
+| A- | 90–92% |
+| B+ | 87–89% |
+| B | 83–86% |
+| B- | 80–82% |
+| C+ | 77–79% |
+| C | 70–76% |
+| F | Below 70% |
+:::
+::::
+
+### Capstone Project
+
+The capstone project is the centerpiece of this course. Working in teams of 2–3, students will:
+
+1. **Identify** a real organizational problem amenable to analytics (partner with a local business, use a public dataset, or propose an original research question)
+2. **Design** a complete analytical solution using tools and methods from the course
+3. **Build** a working analytical product — a predictive model, dashboard, or AI-enhanced application
+4. **Present** findings to a panel of faculty and (where possible) industry professionals
+5. **Document** the full process in a professional GitHub repository and written report
+
+```{admonition} Capstone Evaluation Criteria
 :class: note
-
-The course is organized into four major modules, each building on the last. Every module integrates core analytical methods with AI-augmented implementation using the tools above.
-```
-
-### Module 1: Foundations of AI-Augmented Analytics
-*Weeks 1–3*
-
-- The analytics disruption landscape: what has changed and why it matters
-- Python for business analytics: a rapid review with AI assistance
-- Data wrangling and exploratory data analysis (EDA) in the age of AI copilots
-- Prompt engineering fundamentals for analytical tasks
-- Critical evaluation of AI-generated code and analysis
-- **Project:** AI-assisted EDA of a real business dataset with validation report
-
-### Module 2: Predictive Modeling & Machine Learning
-*Weeks 4–7*
-
-- Regression analysis: from OLS to regularized models (Ridge, Lasso, ElasticNet)
-- Classification: logistic regression, decision trees, random forests, gradient boosting
-- Model evaluation: cross-validation, ROC curves, confusion matrices, business metrics
-- Time series analysis and forecasting for business applications
-- Unsupervised learning: clustering and dimensionality reduction
-- Integrating ML workflows with LLM-assisted code generation and debugging
-- **Project:** End-to-end predictive modeling project with AI-augmented pipeline
-
-### Module 3: Agentic AI & Advanced Analytics Applications
-*Weeks 8–11*
-
-- Large language models: architecture, capabilities, and limitations for business analytics
-- Retrieval-Augmented Generation (RAG) and knowledge-grounded AI systems
-- Autonomous AI agents: architecture, deployment, and governance
-- Natural Language Processing (NLP) for business text analytics
-- Computer vision applications in business contexts
-- Building voice-enabled analytics interfaces with Vapi
-- **Project:** Autonomous agent-assisted analytics project with critical evaluation report
-
-### Module 4: Decision Intelligence & Ethical AI
-*Weeks 12–15*
-
-- Translating analytics to decisions: frameworks for evidence-based business strategy
-- Data storytelling and executive communication of analytical findings
-- Algorithmic fairness, bias detection, and responsible AI deployment
-- AI governance frameworks for enterprise analytics
-- The future of the analytics profession: roles, skills, and career strategy
-- **Capstone:** Comprehensive AI-augmented business analytics portfolio project
-
----
-
-## 📊 Assessment Structure
-
-```{list-table} Grading Breakdown
-:header-rows: 1
-:widths: 40 15 45
-
-* - Assessment Component
-  - Weight
-  - Description
-* - Module Projects (4 × 12.5%)
-  - 50%
-  - Hands-on applied projects completed at the conclusion of each module
-* - Weekly Analytical Labs
-  - 20%
-  - Short, tool-focused lab exercises reinforcing concepts from weekly sessions
-* - Capstone Portfolio Project
-  - 20%
-  - Comprehensive AI-augmented analytics project demonstrating full course competencies
-* - Critical AI Reflection Journals
-  - 10%
-  - Written reflections on AI tool use, limitations encountered, and judgment applied
-```
-
-```{note}
-**On the use of AI in assessments:** This course *encourages* the use of AI tools in your work. However, all submissions must include an **AI Use Disclosure** documenting which tools were used, how outputs were validated, and what human judgment was applied. Submissions that use AI outputs without disclosure or critical evaluation will receive a grade of zero. The goal is not to catch you using AI — it is to teach you to use it *well*.
+Capstone projects are evaluated on: (1) Problem significance and framing, (2) Methodological rigor, (3) Appropriate and critical use of AI tools, (4) Quality of insights and business recommendations, (5) Clarity of communication for executive audiences, and (6) Reproducibility and documentation standards.
 ```
 
 ---
 
-## 🧭 Who This Course Is For
+## 📚 Required Materials
 
-ISM 6405 is designed for graduate students who are ready to move beyond passive analytics and into the role of an analytics leader. You will thrive in this course if you:
+All primary learning materials are provided through this open textbook and associated Colab notebooks. There is **no required textbook purchase**.
 
-- Are enrolled in the **MBA, MS Information Technology, MS Data Science and Analytics**, or related graduate program at FAU
-- Have a foundation in quantitative methods and are ready to push significantly beyond it
-- Are motivated by real-world application rather than purely theoretical treatment
-- Are intellectually curious about AI — including its limitations and risks, not just its capabilities
-- Are willing to invest time in hands-on experimentation, occasional frustration, and iterative learning
-- Want to graduate with a **concrete, demonstrable, portfolio-ready** set of skills
+### Recommended References
 
----
+- **"Storytelling with Data"** — Cole Nussbaumer Knaflic *(Visualization and communication)*
+- **"Python for Data Analysis, 3rd Ed."** — Wes McKinney *(Pandas and data wrangling)*
+- **"Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow"** — Aurélien Géron *(ML foundations)*
+- **"Prediction Machines: The Simple Economics of Artificial Intelligence"** — Agrawal, Gans, Goldfarb *(Strategic AI context)*
+- **"The Signal and the Noise"** — Nate Silver *(Forecasting and uncertainty)*
 
-## 🌐 The Bigger Picture
+### Selected Articles and Cases
 
-The analytics profession is being restructured in real time. Roles that existed five years ago are being redefined. New roles — **AI Analytics Lead**, **Prompt Engineer**, **AI Governance Analyst**, **Agentic Systems Designer** — did not exist a decade ago and are now among the most sought-after positions in the market.
-
-The graduate students who will define the next generation of analytics leadership are those who:
-
-1. **Understand the technology deeply enough to use it wisely** — not just functionally
-2. **Maintain the statistical and critical thinking foundations** that AI cannot replace
-3. **Develop the judgment** to know when to trust AI outputs and when to interrogate them
-4. **Communicate insights compellingly** to decision-makers who may not share their technical background
-5. **Lead with ethics** — bringing governance, fairness, and accountability into every analytics engagement
-
-ISM 6405 is built to develop exactly these competencies. The tools are exciting. The methods are rigorous. The stakes are real.
+Assigned readings from *Harvard Business Review*, *MIT Sloan Management Review*, and primary academic sources are provided through FAU Library and linked in each module. Students are expected to engage critically with assigned readings using **NotebookLM** as part of weekly preparation.
 
 ---
 
-## 📬 Getting Started
+## 🤝 Course Policies
 
-```{admonition} Before the First Session
+### Academic Integrity and AI Use
+
+```{admonition} ⚖️ AI Use Policy — Read Carefully
+:class: important
+
+This course has a **nuanced, explicit AI use policy** that differs significantly from many of your other courses.
+
+**Permitted and Encouraged:**
+- Using Claude, Manus, NotebookLM, and other AI tools for assignments where explicitly designated
+- Using AI to generate code drafts that you then understand, modify, test, and document
+- Using AI for research synthesis when you critically evaluate and cite the underlying sources
+- Using AI as a thinking partner to stress-test your arguments and analytical choices
+
+**Not Permitted:**
+- Submitting AI-generated text as your own written analysis without disclosure
+- Using AI to answer exam questions
+- Presenting AI-generated code you cannot explain or defend
+- Using AI to circumvent the learning objectives of an assignment
+
+**The Standard:** If you cannot explain every line of code you submit, every claim you make, or every recommendation you provide — it is not your work yet, regardless of how it was generated. Our goal is *AI-augmented mastery*, not AI substitution.
+```
+
+### Collaboration Policy
+
+- **Lab Notebooks:** Individual submissions unless otherwise noted
+- **Case Analyses:** Individual submissions
+- **Tool Integration Assignments:** Individual or pairs (designated per assignment)
+- **Capstone Project:** Teams of 2–3 with documented individual contributions
+
+### Late Work
+
+Graduate-level professional standards apply. Late submissions lose 10% per day. Extensions may be granted with advance notice and legitimate cause. Communicate proactively.
+
+---
+
+## 🌐 Why This Course Matters Now
+
+The Bureau of Labor Statistics projects that demand for data science and analytics roles will grow **36% through 2031** — far faster than the average for all occupations. But the nature of those roles is changing faster than the projections can capture.
+
+The analyst of 2030 will not compete with Python programmers in lower-cost markets by writing better loops. They will compete by doing what AI cannot yet do:
+
+- **Asking better questions** than the model was trained to anticipate
+- **Building trust** with stakeholders who are skeptical of algorithmic recommendations
+- **Navigating ethics** in environments where data use is contested
+- **Integrating context** — organizational history, competitive dynamics, human behavior — that no dataset fully captures
+
+This course is designed to make you that analyst.
+
+```{admonition} 💡 A Note from Dr. Lee
 :class: tip
 
-Complete the following before our first class meeting:
+I have been teaching analytics for over a decade, and I have never revised a course more substantially than I have revised this one. The arrival of capable generative AI has genuinely changed what I believe graduate analytics education must accomplish. 
 
-1. ✅ **Create a Google account** and access [Google Colab](https://colab.research.google.com) — verify you can open and run a notebook
-2. ✅ **Create an Anthropic account** at [claude.ai](https://claude.ai) and explore Claude's interface
-3. ✅ **Access NotebookLM** at [notebooklm.google.com](https://notebooklm.google.com) and upload one document of your choice
-4. ✅ **Review your Python fundamentals** — we hit the ground running in Week 1
-5. ✅ **Read the assigned pre-course article** posted on Canvas: *"The Analyst of 2030"* (link in Canvas)
-6. ✅ **Complete the pre-course survey** on Canvas — your background and goals help Dr. Lee tailor the experience
-```
+I am not trying to teach you to be a data scientist who can be replaced by a model. I am trying to teach you to be the person in the room who understands what the model is doing, why it might be wrong, and how to make the organization smarter because of both your judgment and the tools at your disposal.
 
----
-
-## 📖 Required & Recommended Resources
-
-**All required readings are provided through Canvas.** There is no required textbook purchase. Selected readings are drawn from:
-
-- Harvard Business Review Analytics Series
-- MIT Sloan Management Review
-- McKinsey Global Institute Reports on AI
-- Peer-reviewed journals in information systems and business analytics
-- Industry white papers and practitioner documentation for all course tools
-
-**Recommended Background:**
-- *Python for Data Analysis* — Wes McKinney (O'Reilly)
-- *Storytelling with Data* — Cole Nussbaumer Knaflic
-- *The Model Thinker* — Scott E. Page
-- *Power and Prediction: The Disruptive Economics of Artificial Intelligence* — Agrawal, Gans & Goldfarb
-
----
-
-## ⚖️ Academic Integrity & AI Disclosure Policy
-
-Florida Atlantic University's Academic Integrity Policy applies to all work in this course. In addition, ISM 6405 operates under the following **AI Use Policy**, which is consistent with and extends FAU's evolving institutional guidance:
-
-```{admonition} AI Use Policy
-:class: warning
-
-**Permitted:** Use of any AI tool (Claude, Manus, GitHub Copilot, ChatGPT, Gemini, Vapi, NotebookLM, etc.) for any component of your work in this course, including code generation, writing assistance, research synthesis, and idea development.
-
-**Required:** A completed **AI Disclosure Statement** attached to every submission that uses AI assistance, documenting: (a) which tools were used, (b) how AI outputs were validated or verified, (c) what modifications were made to AI-generated content, and (d) what human judgment was applied.
-
-**Prohibited:** Submission of AI-generated content as your own without disclosure. Submission of AI outputs that have not been critically evaluated and validated. Use of AI to fabricate data, citations, or results.
-
-**The Principle:** In this course, using AI well *is* the skill. Hiding your AI use defeats the purpose of learning. Be transparent, be critical, be accountable.
-```
-
----
-
-## 📞 Contact & Office Hours
-
-| | |
-|---|---|
-| **Instructor** | Dr. Ernesto Lee |
-| **Email** | *See Canvas for contact information* |
-| **Office Hours** | Posted on Canvas — virtual and in-person options available |
-| **Response Time** | Dr. Lee aims to respond to Canvas messages within 48 hours on business days |
-| **Department** | Information Systems & Operations Management |
-| **Building** | Fleming Hall, College of Business, FAU Boca Raton Campus |
-
-```{note}
-For the fastest response to technical questions about course tools, post in the **Canvas Discussion Board: Tools & Tech Support** — your classmates are an excellent resource, and Dr. Lee monitors this board regularly.
-```
-
----
-
-*ISM 6405 Advanced Business Analytics | Dr. Ernesto Lee | Florida Atlantic University College of Business*
-
-*This course page is maintained as a living document. Content, tools, and resources are updated to reflect the current state of the field. Last reviewed: 2025.*
-
----
-
-```{admonition} A Final Note
-:class: tip
-
-Analytics has always been about turning uncertainty into clarity — helping organizations make better decisions with the information available to them. AI has not changed that mission. It has dramatically amplified our capacity to fulfill it, while simultaneously introducing new forms of uncertainty that require new forms of rigor.
-
-Your job, as an advanced analytics professional, is to hold both of those truths at once: embrace the power, interrogate the risk, and always, always bring your own judgment to bear.
-
-Welcome to ISM 6405. Let's get to work.
+That is a harder thing to teach than Python syntax. It is also a far more valuable thing to learn.
 
 — *Dr. Ernesto Lee*
+```
+
+---
+
+## 🔗 Getting Started
+
+### Before the First Class
+
+1. **Create a Google Account** (if you do not have one) and access [Google Colab](https://colab.research.google.com)
+2. **Sign up for Anthropic Claude** at [claude.ai](https://claude.ai) — the free tier is sufficient to begin
+3. **Access NotebookLM** at [notebooklm.google.com](https://notebooklm.google.com) with your Google account
+4. **Create a GitHub account** at [github.com](https://github.com) — this will host your course portfolio
+5. **Complete the pre-course survey** (link distributed via Canvas) — this helps Dr. Lee calibrate the course to your background and goals
+6. **Read Module 1** and upload the assigned readings to a NotebookLM notebook before the first session
+
+### Canvas and Communication
+
+- All assignments are submitted through **FAU Canvas**
+- Course announcements are posted to Canvas — check it regularly
+- The discussion board is active and counts toward participation
+- Email response time is 48 business hours; urgent matters should use office hours
+
+---
+
+## 📬 Connect
+
+::::{grid} 3
+:::{grid-item-card} 🏛️ FAU College of Business
+[business.fau.edu](https://business.fau.edu)
+
+Department of Information Systems & Operations Management
+:::
+:::{grid-item-card} 📧 Contact Dr. Lee
+Office hours by appointment
+
+Fleming Hall, FAU Boca Raton Campus
+
+elee@fau.edu
+:::
+:::{grid-item-card} 🔖 Course Repository
+All notebooks, datasets, and supplementary materials available via the course GitHub organization
+
+*(Link distributed in Canvas)*
+:::
+::::
+
+---
+
+*ISM 6405: Advanced Business Analytics | Florida Atlantic University | © Dr. Ernesto Lee*
+
+*This textbook is updated continuously. Version information and change logs are maintained in the course GitHub repository. Students are always working from the current version.*
+
+---
+
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+modules/module01
+modules/module02
+modules/module03
+modules/module04
+modules/module05
+modules/module06
+modules/module07
+modules/module08
+modules/module09
+modules/module10
+modules/module11
+modules/module12
+modules/module13
+modules/module14
 
 ## Course Content
 
