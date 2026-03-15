@@ -19,6 +19,8 @@ project:
     - file: index.md
     - file: chapters/ch01-what-is-business-analytics.md
     - file: chapters/ch06-agentic-ai.md
+    - file: chapters/ch07-voice-agents.md
+      title: "Chapter 7: Voice Agents"
       title: "Chapter 6: Agentic AI and the Impact on Business Analytics"
       title: "Chapter 1: What is Business Analytics and Data Science"
     - file: chapters/ch02-data-mining.md

@@ -7,6 +7,11 @@ description: |
 # ISM 6405 Advanced Business Analytics
 
 :::
+:::{grid-item-card} Chapter 7: Voice Agents
+:link: ./chapters/ch07-voice-agents.md
+Conversational AI, voice interfaces for data.
+:::
+
 :::{grid-item-card} Chapter 6: Agentic AI and the Impact on Business Analytics
 :link: ./chapters/ch06-agentic-ai.md
 Autonomous agents, multi-agent systems in business.
