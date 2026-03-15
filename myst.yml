@@ -35,8 +35,6 @@ project:
       title: "Chapter 8: Vibe Coding"
     - file: chapters/ch09-future-of-analytics.md
       title: "Chapter 9: The Future of Analytics"
-    - file: quiz-answers.md
-      title: "Quiz Answer Guide"
     - file: chapters/appendix-grading.md
       title: "Appendix: Grading"
 
