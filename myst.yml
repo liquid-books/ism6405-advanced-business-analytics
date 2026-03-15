@@ -18,14 +18,6 @@ project:
   toc:
     - file: index.md
     - file: chapters/ch01-what-is-business-analytics.md
-    - file: chapters/ch06-agentic-ai.md
-    - file: chapters/ch07-voice-agents.md
-    - file: chapters/ch08-vibe-coding.md
-    - file: chapters/appendix-grading.md
-      title: "Appendix: Grading"
-      title: "Chapter 8: Vibe Coding"
-      title: "Chapter 7: Voice Agents"
-      title: "Chapter 6: Agentic AI and the Impact on Business Analytics"
       title: "Chapter 1: What is Business Analytics and Data Science"
     - file: chapters/ch02-data-mining.md
       title: "Chapter 2: Data Mining"
@@ -35,8 +27,16 @@ project:
       title: "Chapter 4: Data Visualization"
     - file: chapters/ch05-impact-of-ai.md
       title: "Chapter 5: The Impact of AI on Business Analytics"
+    - file: chapters/ch06-agentic-ai.md
+      title: "Chapter 6: Agentic AI and the Impact on Business Analytics"
+    - file: chapters/ch07-voice-agents.md
+      title: "Chapter 7: Voice Agents"
+    - file: chapters/ch08-vibe-coding.md
+      title: "Chapter 8: Vibe Coding"
     - file: chapters/ch09-future-of-analytics.md
       title: "Chapter 9: The Future of Analytics"
+    - file: chapters/appendix-grading.md
+      title: "Appendix: Grading"
 
 site:
   title: "ISM 6405 Advanced Business Analytics"
