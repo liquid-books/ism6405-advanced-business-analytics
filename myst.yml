@@ -33,6 +33,8 @@ project:
       title: "Chapter 4: Data Visualization"
     - file: chapters/ch05-impact-of-ai.md
       title: "Chapter 5: The Impact of AI on Business Analytics"
+    - file: chapters/ch09-future-of-analytics.md
+      title: "Chapter 9: The Future of Analytics"
 
 site:
   title: "ISM 6405 Advanced Business Analytics"

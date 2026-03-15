@@ -6,6 +6,11 @@ description: |
 
 # ISM 6405 Advanced Business Analytics
 
+
+:::{grid-item-card} Chapter 9: The Future of Analytics
+:link: ./chapters/ch09-future-of-analytics.md
+Future trends + Final Project (presentation pitch).
+:::
 :::
 :::{grid-item-card} Chapter 8: Vibe Coding
 :link: ./chapters/ch08-vibe-coding.md
