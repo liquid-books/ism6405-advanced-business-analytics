@@ -23,6 +23,8 @@ project:
     - file: index.md
     - file: chapters/ch03-text-and-web-mining.md
     - file: chapters/ch01-what-is-business-analytics.md
+    - file: chapters/ch04-data-visualization.md
+      title: "Chapter 4: Data Visualization"
       title: "Chapter 1: What is Business Analytics and Data Science"
       title: "Chapter 3: Text and Web Mining"
 

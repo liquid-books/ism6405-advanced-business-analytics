@@ -7,7 +7,12 @@ description: |
 # ISM 6405 Advanced Business Analytics
 
 
-:::{grid-item-card} Chapter 1: What is Business Analytics and Data Science
+:::
+:::{grid-item-card} Chapter 4: Data Visualization
+:link: ./chapters/ch04-data-visualization.md
+Dashboards, charting, storytelling + Midterm Activity (building a business with analytics).
+:::
+{grid-item-card} Chapter 1: What is Business Analytics and Data Science
 :link: ./chapters/ch01-what-is-business-analytics.md
 Introductory concepts, data science vs analytics.
 :::
