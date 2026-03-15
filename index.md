@@ -6,6 +6,11 @@ description: |
 
 # ISM 6405 Advanced Business Analytics
 
+
+:::{grid-item-card} Chapter 1: What is Business Analytics and Data Science
+:link: ./chapters/ch01-what-is-business-analytics.md
+Introductory concepts, data science vs analytics.
+:::
 :::
 :::{grid-item-card} Chapter 3: Text and Web Mining
 :link: ./chapters/ch03-text-and-web-mining.md
