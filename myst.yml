@@ -21,6 +21,8 @@ project:
     - file: chapters/ch06-agentic-ai.md
     - file: chapters/ch07-voice-agents.md
     - file: chapters/ch08-vibe-coding.md
+    - file: chapters/appendix-grading.md
+      title: "Appendix: Grading"
       title: "Chapter 8: Vibe Coding"
       title: "Chapter 7: Voice Agents"
       title: "Chapter 6: Agentic AI and the Impact on Business Analytics"
