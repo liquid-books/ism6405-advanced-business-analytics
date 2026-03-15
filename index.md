@@ -7,6 +7,11 @@ description: |
 # ISM 6405 Advanced Business Analytics
 
 
+
+:::{grid-item-card} Chapter 2: Data Mining
+:link: ./chapters/ch02-data-mining.md
+Predictive modeling, classification, clustering.
+:::
 :::
 :::{grid-item-card} Chapter 4: Data Visualization
 :link: ./chapters/ch04-data-visualization.md
