@@ -7,6 +7,11 @@ description: |
 # ISM 6405 Advanced Business Analytics
 
 :::
+:::{grid-item-card} Chapter 8: Vibe Coding
+:link: ./chapters/ch08-vibe-coding.md
+Natural language programming, code generation via LLMs.
+:::
+
 :::{grid-item-card} Chapter 7: Voice Agents
 :link: ./chapters/ch07-voice-agents.md
 Conversational AI, voice interfaces for data.

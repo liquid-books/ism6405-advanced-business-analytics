@@ -20,6 +20,8 @@ project:
     - file: chapters/ch01-what-is-business-analytics.md
     - file: chapters/ch06-agentic-ai.md
     - file: chapters/ch07-voice-agents.md
+    - file: chapters/ch08-vibe-coding.md
+      title: "Chapter 8: Vibe Coding"
       title: "Chapter 7: Voice Agents"
       title: "Chapter 6: Agentic AI and the Impact on Business Analytics"
       title: "Chapter 1: What is Business Analytics and Data Science"

@@ -401,3 +401,40 @@ Parsing images...
 Updating myst.yml TOC...
 Updating index.md...
 Committing and pushing...
+{
+  "success": true,
+  "pushed": true,
+  "committed": false,
+  "repo": "liquid-books/ism6405-advanced-business-analytics",
+  "message": "Pushed existing commits (no new changes staged)",
+  "commit": "9530abf8254f0a6f1948c87bd2531b41c70f0dd5",
+  "pages_url": "https://liquid-books.github.io/ism6405-advanced-business-analytics"
+}
+
+
+--- Building Chapter 8: Vibe Coding ---
+Generating text...
+Parsing images...
+Generating image: ch08-hero.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch08-hero.png","size":1825533,"sizeKB":"1782.7","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch08-fig1.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch08-fig1.png","size":1289206,"sizeKB":"1259.0","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch08-fig2.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch08-fig2.png","size":1206552,"sizeKB":"1178.3","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch08-fig3.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch08-fig3.png","size":1459446,"sizeKB":"1425.2","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch08-fig4.png
+Hit max tokens, continuing...
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch08-fig4.png","size":1686748,"sizeKB":"1647.2","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch08-fig5.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch08-fig5.png","size":1802924,"sizeKB":"1760.7","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch08-fig6.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch08-fig6.png","size":1511608,"sizeKB":"1476.2","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch08-fig7.png
+Hit max tokens, continuing...
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch08-fig7.png","size":1242308,"sizeKB":"1213.2","model":"gemini-3.1-flash-image-preview"}
+Generating image: ch08-fig8.png
+{"success":true,"path":"/home/node/openclaw/books/ism6405-advanced-business-analytics/images/ch08-fig8.png","size":1622389,"sizeKB":"1584.4","model":"gemini-3.1-flash-image-preview"}
+Updating myst.yml TOC...
+Updating index.md...
+Committing and pushing...
