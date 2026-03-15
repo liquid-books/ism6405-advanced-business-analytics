@@ -1,16 +1,13 @@
 # MyST project configuration
-# Docs: https://mystmd.org/guide/configuration
 version: 1
 project:
   title: "ISM 6405 Advanced Business Analytics"
   authors:
     - name: Dr. Ernesto Lee
-  # Book-level attributes
   keywords: []
   license: CC-BY-4.0
   open_access: true
   github: https://github.com/liquid-books/ism6405-advanced-business-analytics
-  # Numbering
   numbering:
     heading_1: true
     heading_2: true
@@ -18,19 +15,18 @@ project:
     figure: true
     table: true
     equation: true
-  # Table of contents — chapters added here as they are written
   toc:
     - file: index.md
-    - file: chapters/ch03-text-and-web-mining.md
     - file: chapters/ch01-what-is-business-analytics.md
-    - file: chapters/ch04-data-visualization.md
+      title: "Chapter 1: What is Business Analytics and Data Science"
     - file: chapters/ch02-data-mining.md
+      title: "Chapter 2: Data Mining"
+    - file: chapters/ch03-text-and-web-mining.md
+      title: "Chapter 3: Text and Web Mining"
+    - file: chapters/ch04-data-visualization.md
+      title: "Chapter 4: Data Visualization"
     - file: chapters/ch05-impact-of-ai.md
       title: "Chapter 5: The Impact of AI on Business Analytics"
-      title: "Chapter 2: Data Mining"
-      title: "Chapter 4: Data Visualization"
-      title: "Chapter 1: What is Business Analytics and Data Science"
-      title: "Chapter 3: Text and Web Mining"
 
 site:
   title: "ISM 6405 Advanced Business Analytics"

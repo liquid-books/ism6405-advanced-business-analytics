@@ -216,3 +216,16 @@ Generating image: ch05-fig8.png
 Updating myst.yml TOC...
 Updating index.md...
 Committing and pushing...
+{
+  "success": true,
+  "pushed": true,
+  "committed": false,
+  "repo": "liquid-books/ism6405-advanced-business-analytics",
+  "message": "Pushed existing commits (no new changes staged)",
+  "commit": "6fad1515f07cf02e97e57b1762456522dd7bbbd4",
+  "pages_url": "https://liquid-books.github.io/ism6405-advanced-business-analytics"
+}
+
+
+--- Building Chapter 6: Agentic AI and the Impact on Business Analytics ---
+Generating text...

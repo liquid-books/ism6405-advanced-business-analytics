@@ -52,11 +52,15 @@ async function generateText(prompt) {
 }
 
 function addChapterToToc(mystYml, chapterFile, chapterTitle) {
+  if (mystYml.includes(chapterFile)) return mystYml;
   const lines = mystYml.split('\n');
   const tocIndex = lines.findIndex(l => l.trim() === 'toc:');
   if (tocIndex === -1) return mystYml;
+  
+  // Find the end of the toc list
   let i = tocIndex + 1;
-  while(i < lines.length && lines[i].startsWith('    -')) { i++; }
+  while(i < lines.length && (lines[i].startsWith('    -') || lines[i].startsWith('      title:'))) { i++; }
+  
   lines.splice(i, 0, `    - file: ${chapterFile}\n      title: "${chapterTitle}"`);
   return lines.join('\n');
 }
